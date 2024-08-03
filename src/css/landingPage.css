@@ -1,0 +1,35 @@
+#achievements{
+    padding: 2rem;
+}
+#achievements .someAchieve{
+    padding:1rem;
+}
+#achievements .someAchieve .mainContent{
+    padding: 80px 0px;
+}
+#achievements .someAchieve .mainContent .heading{
+    padding: 10px 20px;
+    /* text-transform: uppercase; */
+}
+#achievements .someAchieve .mainContent .achieves{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    --childWidth : 30%;
+}
+#achievements .someAchieve .mainContent .achieves .achieve{
+    width: var(--childWidth);
+    height: auto;
+    display: flex;
+}
+@media (max-width:730px){
+    #achievements .someAchieve .mainContent .achieves .achieve{
+        height: calc(var(--childWidth) * 0.3);
+    }
+}
+@media (max-width:650px){
+    #achievements .someAchieve .mainContent .achieves .achieve{
+        height: auto;
+    }
+}
