@@ -24,8 +24,8 @@ const about = () => {
                 height === 0 ? elem1.style.opacity = 1 : ''
                 height >= h1 * 0.5 ? elem2.style.opacity = 1 : ''
                 height >= h1 + h2 * 0.7 ? elem3.style.opacity = 1 : ''
-                height >= h1 + h2 + h3 * 0.7 ? elem4.style.opacity = 1 : ''
-                height >= h1 + h2 + h3 + h4 * 0.7 ? elem5.style.opacity = 1 : ''
+                height >= h1 + h2 + h3 ? elem4.style.opacity = 1 : ''
+                height >= h1 + h2 + h3 + h4 ? elem5.style.opacity = 1 : ''
 
             })() : ''
     }
@@ -61,13 +61,15 @@ const about = () => {
                     </div>
                 </div>
             </div>
-            
+
             <hr />
 
             <div className="aboutContent px-5 py-4">
 
                 <div className="WhatWeDid position-relative transition-opacity duration-1000 ease  my-20 flex items-center justify-content-between" style={{ opacity: "0" }}>
-                    <div className="img w-2/5 shadow-2xl shadow-slate-800"><img className=' w-100 object-fit-cover' src={demoImg} /></div>
+                    <div className="img w-2/5 shadow-2xl shadow-slate-800 rounded-md overflow-hidden">
+                        <img className=' w-100 object-fit-cover' src={demoImg} />
+                    </div>
                     <div className="content w-3/5 p-4 bg-transparent">
                         <div className="headinguppercase uppercase text-3xl text-center font-[800] my-3"> what we do ?</div>
                         <div className="whatWeDoContent">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad provident quaerat nisi, harum voluptates nam est laudantium error et fuga eligendi dolorum aliquam deserunt quasi, omnis recusandae nobis rem inventore!
@@ -89,14 +91,15 @@ const about = () => {
                             Optio eligendi doloribus vitae sequi, provident quibusdam modi iusto fugit est quod excepturi odio magni eaque tempore architecto nisi beatae, aspernatur eos fuga doloremque minima itaque. Unde iusto illo fuga?
                         </div>
                     </div>
-                    <div className="img w-2/5  shadow-2xl shadow-slate-800"><img className=' w-100 object-fit-cover' src={demoImg} /></div>
+                    <div className="img w-2/5 shadow-2xl shadow-slate-800"><img className=' rounded-md overflow-hidden w-100 object-fit-cover' src={demoImg} /></div>
                 </div>
 
                 <hr />
 
                 <div className="hod transition-opacity duration-1000 ease  flex justify-content-between items-center" style={{ opacity: "0" }}>
-                    <div className="hodImg w-3/12 shadow-2xl shadow-slate-800">
-                        <img src={demoImg} />
+                    <div className="hodImg w-3/12">
+                        <img className=' w-100 rounded-md shadow-2xl shadow-slate-800' src={demoImg} />
+                        <div className="HodName bg-transparent py-6 text-2xl font-[600] font-serif">Anirban</div>
                     </div>
                     <div className="hodTalk w-9/12 px-6 py-4">
                         <div className="heading uppercase text-xl font-[700] my-3">our hod sir</div>
@@ -113,7 +116,8 @@ const about = () => {
                         {[1, 2, 3, 4, 5, 6, 7, 8, 9, 10].map(() => {
                             return <div className="singlemember mx-2 my-3" style={{ minWidth: "200px" }}>
                                 <div className="memberimg "><img src={demoImg} /></div>
-                                <div className="brifeContent">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, voluptas corrupti! Sit ut neque ullam corporis consequuntur ratione fugit eveniet expedita </div>
+                                <div className="name text-base font-[700] font-serif">Anirban</div>
+                                <div className="brifeContent">  corporis consequuntur ratione fugit eveniet expedita </div>
                             </div>
                         })}
                     </div>

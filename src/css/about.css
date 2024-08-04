@@ -29,15 +29,15 @@
 }
 @keyframes slideBg{
     0%{
-        transform: translatey(0%);
+        transform: translateY(0%);
     }
     33%{
-        transform: translatey(-25%);
+        transform: translateY(-25%);
     }
     66%{
-        transform: translatey(-50%);
+        transform: translateY(-50%);
     }
     100%{
-        transform: translatey(-75%);
+        transform: translateY(-75%);
     }
 }
