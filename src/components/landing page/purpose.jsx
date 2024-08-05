@@ -4,7 +4,7 @@ import wave from '/wave (5).png'
 const purpose = (props) => {
     return (
         <>
-            <div className={`p-3 position-relative transition-all duration-1000  ${props.isPurposeVisible ? "opacity-100" : "opacity-0"} `} id="purpose" ref={props.purposeRef}>
+            <div className={`p-3 position-relative transition-all duration-700  ${props.isPurposeVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-12"} `} id="purpose" ref={props.purposeRef}>
                 {/* <div className="wave position-absolute w-full h-auto left-0" style={{top:"-160px"}}>
                     <img className=' w-full h-auto' src={wave} />
                 </div> */}
