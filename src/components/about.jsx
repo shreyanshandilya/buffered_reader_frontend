@@ -25,7 +25,7 @@ const about = () => {
                 height >= h1 * 0.5 ? elem2.style.opacity = 1 : ''
                 height >= h1 + h2 * 0.7 ? elem3.style.opacity = 1 : ''
                 height >= h1 + h2 + h3 ? elem4.style.opacity = 1 : ''
-                height >= h1 + h2 + h3 + h4 ? elem5.style.opacity = 1 : ''
+                height >= h1 + h2 + h3 + h4*0.6 ? elem5.style.opacity = 1 : ''
 
             })() : ''
     }
@@ -83,9 +83,7 @@ const about = () => {
 
                 <div className="ourProgress transition-opacity duration-1000 ease  my-20 flex md:flex-row flex-col-reverse items-center md:justify-content-between" style={{ opacity: "0" }}>
                     <div className="content md:w-3/5 w-full sm:p-4 sm:my-0 my-4">
-                        <div className="heading d-flex md:justify-start justify-center items-center">
-                            <p className=' uppercase sm:text-3xl text-2xl font-[800] md:text-start text-center my-3'>our progress</p>
-                        </div>
+                        <div className=' uppercase sm:text-3xl text-2xl font-[800] md:text-start text-center my-3'>our progress</div>
                         <div className="ourProgressContent px-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad provident quaerat nisi, harum voluptates nam est laudantium error et fuga eligendi dolorum aliquam deserunt quasi, omnis recusandae nobis rem inventore!
                             At quos aspernatur unde repellendus quod sapiente tempora consectetur veniam nesciunt commodi atque nisi mollitia, nobis reiciendis cum minima fugiat! Ipsa ut excepturi doloremque itaque fuga deserunt sunt incidunt natus.
                             Optio eligendi doloribus vitae sequi, provident quibusdam modi iusto fugit est quod excepturi odio magni eaque tempore architecto nisi beatae, aspernatur eos fuga doloremque minima itaque. Unde iusto illo fuga?
@@ -96,13 +94,13 @@ const about = () => {
 
                 <hr />
 
-                <div className="hod transition-opacity duration-1000 ease flex md:flex-row flex-col md:justify-between md:items-start items-center mt-10" style={{ opacity: "0" }}>
-                    <div className="hodImg mx-2 md:w-5/12 w-9/12 md:block flex justify-center items-center">
+                <div className="hod transition-opacity duration-1000 ease flex md:flex-row flex-col md:justify-between md:items-start items-center my-10" style={{ opacity: "0" }}>
+                    <div className="hodImg mx-2 md:w-3/12 w-9/12 md:block flex justify-center items-center">
                         <img className=' md:w-full w-7/12 rounded-md shadow-2xl shadow-slate-800' src={demoImg} />
                         <div className="HodName bg-transparent py-6 sm:text-2xl text-xl font-[600] font-serif mx-4">Anirban</div>
                     </div>
-                    <div className="hodTalk md:w-7/12 m-2">
-                        <div className="heading uppercase text-xl font-[700] my-3 text-center">our hod sir</div>
+                    <div className="hodTalk md:w-9/12 m-2">
+                        <div className="heading uppercase text-xl font-[700] text-center my-3">our hod sir</div>
                         <div className="hodContent h-fit ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi repudiandae aliquid modi error eligendi magni sequi veritatis ad inventore nesciunt sint repellat optio, nam tempore porro quo ipsum nihil ex.
                             Corporis aut a labore ab iure vel voluptatem enim cum, non quod, esse incidunt sunt temporibus nihil tenetur dolores reprehenderit numquam dolore, et praesentium iusto quis. Rerum animi repudiandae deleniti?
                             Illo, quibusdam iste! Asperiores obcaecati repudiandae dolores unde sunt repellendus sapiente aut non eius sit, ab deserunt ut ducimus impedit. Perspiciatis, laboriosam dolor quos expedita ut molestias magnam minima sint?
