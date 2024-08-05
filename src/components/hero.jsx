@@ -4,7 +4,7 @@ export default function Hero() {
   return (
     <div className='w-screen h-screen -mt-20 overflow-hidden'>
         <div className='w-screen h-screen -mt-20'>
-            <img className='w-full' src="..\public\eth.jpeg" alt="" />
+            <img className='w-full' src="/eth.jpeg" alt="" />
             <div className='absolute box-border top-1/3 w-2/4 left-16 pl-24 text-white font-sans'>
                 <div className='font-extrabold text-base tracking-widest mb-3'>Cse Society</div>
                 <div className='font-extrabold text-5xl mb-5'>Buffered Reader</div>
