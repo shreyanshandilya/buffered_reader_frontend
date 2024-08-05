@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, useState } from 'react'
-import Achievements from './landing page/achievements'
-import Hero from './landing page/hero'
-import Purpose from './landing page/purpose'
+import Achievements from './achievements'
+import Hero from './hero'
+import Purpose from './purpose'
 
 const home = () => {
 
