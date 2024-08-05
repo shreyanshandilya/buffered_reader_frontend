@@ -9,7 +9,7 @@ export default function Hero(props) {
   })
 
   return (
-    <div id="hero" className=" text-gray-600 body-font md:overflow-hidden w-full h-auto" ref={props.homeRef} style={{ backgroundImage: `url(${bgImg})`, backgroundSize: "100% 100%", minHeight: `${window.innerHeight}px` }}>
+    <div id="hero" className=" text-gray-600 body-font md:overflow-hidden w-full h-auto" ref={props.homeRef} style={{ backgroundImage: `url(${bgImg})`, backgroundSize: "120% 120%", minHeight: `${window.innerHeight}px` }}>
       <div className="container flex items-center justify-center flex-col">
 
         <div className=" text-center lg:w-2/3 w-full">
