@@ -9,7 +9,7 @@ export default function Navbar
                 <div className="container w-full flex flex-wrap p-5 flex-col md:flex-row items-center md:justify-between ">
                     <div>                    
                             <a className=" flex title-font font-medium items-center text-gray-100 mb-4 md:mb-0 " href="/">
-                                <img className='pl-2 h-10 rounded-lg' src="/logo.jpg" alt="oops" />
+                                <img className='pl-2 h-10 rounded-lg' src="..\public\logo.jpg" alt="oops" />
 
                                 <span className="ml-3 text-2xl">Buffered Reader</span>
                             </a>

@@ -1,8 +1,8 @@
 import React from 'react'
 
-export default function Hero() {
+export default function Hero(props) {
   return (
-    <div className='w-screen h-screen -mt-20 overflow-hidden'>
+    <div className='w-screen h-screen -mt-20 overflow-hidden' ref={props.homeRef}>
         <div className='w-screen h-screen -mt-20'>
             <img className='w-full' src="/eth.jpeg" alt="" />
             <div className='absolute box-border top-1/3 w-2/4 left-16 pl-24 text-white font-sans'>
