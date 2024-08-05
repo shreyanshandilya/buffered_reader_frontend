@@ -11,9 +11,13 @@ const achievements = (props) => {
         const achieves = document.querySelector("#achievements .someAchieve .mainContent .achieves")
         windowWidth >= 730 ?
             achieves ? achieves.style.setProperty("--childWidth", `${(window.innerWidth - 150) * 0.5}px`) : '' : ''
-        730 > windowWidth && windowWidth >= 350 ?
+        730 > windowWidth && windowWidth >= 450 ?
             achieves ? (() => {
-                achieves.style.setProperty("--childWidth", `${(window.innerWidth - 100)}px`)
+                achieves.style.setProperty("--childWidth", `95%`)
+            })() : '' : ''
+        450 > windowWidth && windowWidth >= 330 ?
+            achieves ? (() => {
+                achieves.style.setProperty("--childWidth", `100%`)
             })() : '' : ''
     }
 

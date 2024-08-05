@@ -1,26 +1,10 @@
 import React from 'react'
 import Navbar from '../navbar'
 
-export default function Hero() {
+export default function Hero(props) {
   return (
-    // <div classNameName='w-screen h-screen -mt-20 overflow-hidden'>
-    //     <div classNameName='w-screen h-screen -mt-20'>
-    //         <img classNameName='w-full' src="..\public\eth.jpeg" alt="" />
-    //         <div classNameName='absolute box-border top-1/3 w-2/4 left-16 pl-24 text-white font-sans'>
-    //             <div classNameName='font-extrabold text-base tracking-widest mb-3'>Cse Society</div>
-    //             <div classNameName='font-extrabold text-5xl mb-5'>Buffered Reader</div>
-    //             <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat vel id minima earum dolorum. Qui beatae maxime enim illum molestiae animi, eveniet nemo vel, 
-    //                 recusandae quos neque quas similique fugiat!</div>
-    //             </div>
-                 
-                
-                
-    //         </div>
-           
-           
-            
-    // </div>
-    <section className="text-gray-600 body-font -mt-24 md:overflow-hidden">
+  
+    <section className="text-gray-600 body-font -mt-24 md:overflow-hidden" ref={props.homeRef}>
       <Navbar/>
       <div className="container mx-auto flex px-5 py-24 items-center justify-center flex-col">
         {/* <img className="-z-10  lg:w-screen md:w-3/6 w-5/6 mb-10 object-cover object-center rounded" alt="hero" src="/pattern(4).svg"/> */}

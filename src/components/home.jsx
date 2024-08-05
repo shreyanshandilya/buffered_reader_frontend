@@ -1,19 +1,25 @@
 import React, { useEffect, useRef, useState } from 'react'
 import Achievements from './landing page/achievements'
 import Hero from './landing page/hero'
-import Navbar from './navbar'
+import Purpose from './landing page/purpose'
 
 const home = () => {
 
   const achievementRef = useRef()
+  const purposeRef = useRef()
+  const homeRef = useRef()
 
   const [isAchieveVisible, setisAchieveVisible] = useState(false)
+  const [isPurposeVisible, setisPurposeVisible] = useState(false)
 
   const scrollAnimation = () => {
     achievementRef.current ? (() => {
       const scrollY = window.scrollY
-      const h2 = achievementRef.current.clientHeight
-      scrollY === 0 ? setisAchieveVisible(true) : ''
+      const h1 = homeRef.current.clientHeight
+      const h2 = purposeRef.current.clientHeight
+      const h3 = achievementRef.current.clientHeight
+      scrollY >= h1*0.6 ? setisPurposeVisible(true) : ''
+      scrollY >= h1 + h2*0.4 ? setisAchieveVisible(true) : ''
     })() : ""
   }
 
@@ -26,7 +32,8 @@ const home = () => {
 
   return (
     <>
-      <Hero />
+      <Hero homeRef={homeRef} />
+      <Purpose purposeRef={purposeRef} isPurposeVisible={isPurposeVisible}/>
       <Achievements achievementRef={achievementRef} isAchieveVisible={isAchieveVisible} />
     </>
   )

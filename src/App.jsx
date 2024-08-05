@@ -2,6 +2,7 @@ import React from "react"
 import { createBrowserRouter, RouterProvider } from "react-router-dom"
 import Home from "./components/home"
 import About from "./components/about"
+import Purpose from './components/landing page/purpose'
 
 function App() {
 
@@ -13,7 +14,11 @@ function App() {
     {
       path: "/about",
       element: <About />
-    }
+    },
+    {
+      path: "/purpose",
+      element: <Purpose />
+    },
   ])
 
   return (

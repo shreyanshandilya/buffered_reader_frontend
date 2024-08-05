@@ -24,12 +24,36 @@
     display: flex;
 }
 @media (max-width:730px){
+    #achievements{
+        padding: 1.5rem;
+    }
     #achievements .someAchieve .mainContent .achieves .achieve{
         height: calc(var(--childWidth) * 0.3);
     }
 }
 @media (max-width:650px){
+    #achievements{
+        padding: 0.5rem;
+    }
     #achievements .someAchieve .mainContent .achieves .achieve{
         height: auto;
+    }
+}
+
+#purpose .slide{
+    animation: slidePurpose 25s ease 0s infinite;
+}
+@keyframes slidePurpose{
+    0%{
+        transform: translateX(0);
+    }
+    33%{
+        transform: translateX(-25%);
+    }
+    66%{
+        transform: translateX(-50%);
+    }
+    100%{
+        transform: translateX(-75%);
     }
 }
