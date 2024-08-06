@@ -1,17 +1,36 @@
-import { useState } from 'react'
-import './App.css'
-import Navbar from './components/navbar'
-import Hero from './components/hero'
+import React from "react"
+import { createBrowserRouter, RouterProvider } from "react-router-dom"
+import { HashRouter as Router , Routes, Route } from "react-router-dom"
+import Home from "./components/home"
+import About from "./components/about"
+import Purpose from './components/landing page/purpose'
 
 function App() {
-  const [count, setCount] = useState(0)
+
+  const router = createBrowserRouter([
+    {
+      path: "/",
+      element: <Home />
+    },
+    {
+      path: "/about",
+      element: <About />
+    },
+    {
+      path: "/purpose",
+      element: <Purpose />
+    },
+  ])
 
   return (
-    
-    <>
-     <Navbar/>
-     <Hero/>
-    </>
+    // <RouterProvider router={router} />
+    <Router>
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/about" element={<About />} />
+      <Route path="/purpose" element={<Purpose />} />
+    </Routes>
+  </Router>
   )
 }
 
