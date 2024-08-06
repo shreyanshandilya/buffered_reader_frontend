@@ -2,6 +2,7 @@ import React, { useEffect, useRef, useState } from 'react'
 import Achievements from './landing page/achievements'
 import Hero from './landing page/hero'
 import Purpose from './landing page/purpose'
+import Navbar from './navbar'
 
 const home = () => {
 
@@ -18,8 +19,8 @@ const home = () => {
       const h1 = homeRef.current.clientHeight
       const h2 = purposeRef.current.clientHeight
       const h3 = achievementRef.current.clientHeight
-      scrollY >= h1*0.6 ? setisPurposeVisible(true) : ''
-      scrollY >= h1 + h2*0.4 ? setisAchieveVisible(true) : ''
+      scrollY >= h1*0.4 ? setisPurposeVisible(true) : ''
+      scrollY >= h1 + h2*0.3 ? setisAchieveVisible(true) : ''
     })() : ""
   }
 
@@ -32,6 +33,7 @@ const home = () => {
 
   return (
     <>
+    <Navbar/>
       <Hero homeRef={homeRef} />
       <Purpose purposeRef={purposeRef} isPurposeVisible={isPurposeVisible}/>
       <Achievements achievementRef={achievementRef} isAchieveVisible={isAchieveVisible} />
