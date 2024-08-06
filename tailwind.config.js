@@ -6,6 +6,13 @@ export default {
   ],
   theme: {
     extend: {},
+    backgroundSize: {
+      'auto': 'auto',
+      'cover': 'cover',
+      'contain': 'contain',
+      '100-150': '100% 150%',
+      '16': '4rem',
+    }
   },
   plugins: [],
 }

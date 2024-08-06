@@ -9,6 +9,7 @@ const home = () => {
   const achievementRef = useRef()
   const purposeRef = useRef()
   const homeRef = useRef()
+  const navbar = useRef()
 
   const [isAchieveVisible, setisAchieveVisible] = useState(false)
   const [isPurposeVisible, setisPurposeVisible] = useState(false)
@@ -19,8 +20,8 @@ const home = () => {
       const h1 = homeRef.current.clientHeight
       const h2 = purposeRef.current.clientHeight
       const h3 = achievementRef.current.clientHeight
-      scrollY >= h1*0.4 ? setisPurposeVisible(true) : ''
-      scrollY >= h1 + h2*0.3 ? setisAchieveVisible(true) : ''
+      scrollY >= h1 * 0.4 ? setisPurposeVisible(true) : ''
+      scrollY >= h1 + h2 * 0.3 ? setisAchieveVisible(true) : ''
     })() : ""
   }
 
@@ -29,13 +30,14 @@ const home = () => {
   }, [])
 
 
-  window.addEventListener("scroll", () => { scrollAnimation() })
+  window.addEventListener("scroll", () => {
+    scrollAnimation()
+  })
 
   return (
     <>
-    <Navbar/>
       <Hero homeRef={homeRef} />
-      <Purpose purposeRef={purposeRef} isPurposeVisible={isPurposeVisible}/>
+      <Purpose purposeRef={purposeRef} isPurposeVisible={isPurposeVisible} />
       <Achievements achievementRef={achievementRef} isAchieveVisible={isAchieveVisible} />
     </>
   )
