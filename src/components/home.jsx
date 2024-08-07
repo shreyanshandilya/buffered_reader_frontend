@@ -2,7 +2,7 @@ import React, { useEffect, useRef, useState } from 'react'
 import Achievements from './landing page/achievements'
 import Hero from './landing page/hero'
 import Purpose from './landing page/purpose'
-import Navbar from './navbar'
+import Footer from './Footer'
 
 const home = () => {
 
@@ -39,6 +39,7 @@ const home = () => {
       <Hero homeRef={homeRef} />
       <Purpose purposeRef={purposeRef} isPurposeVisible={isPurposeVisible} />
       <Achievements achievementRef={achievementRef} isAchieveVisible={isAchieveVisible} />
+      <Footer/>
     </>
   )
 }
