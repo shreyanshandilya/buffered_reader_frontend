@@ -11,8 +11,8 @@ function App() {
     // <RouterProvider router={router} />
     <Router>
     <Routes>
-      <Route path="/" element={<><Home /><Footer/></>} />
-      <Route path="/about" element={<><About /><Footer/></>} />
+      <Route path="/" element={<><Home /></>} />
+      <Route path="/about" element={<><About /></>} />
       <Route path="/purpose" element={<Purpose />} />
     </Routes>
   </Router>
