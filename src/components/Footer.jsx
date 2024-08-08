@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 import '../css/footer.css'
 import 'https://kit.fontawesome.com/3acc7f1241.js';
 
@@ -11,39 +12,39 @@ export default function Footer() {
             <div className="footer-col">
               <h4>Company</h4>
               <ul className="ff">
-                <li><a href="/">About us</a></li>
-                <li><a href="/">our services</a></li>
-                <li><a href="/">privacy policy</a></li>
-                <li><a href="/">affiliate program</a></li>
+                <li><Link to="/">About us</Link></li>
+                <li><Link to="/">our services</Link></li>
+                <li><Link to="/">privacy policy</Link></li>
+                <li><Link to="/">affiliate program</Link></li>
               </ul>
             </div>
             <div className="footer-col">
               <h4>Get Help</h4>
               <ul className="ff">
-                <li><a href="/">FAQ</a></li>
-                <li><a href="/">Contact Us</a></li>
-                <li><a href="/">Host Elections</a></li>
-                <li><a href="/">Policy</a></li>
-                <li><a href="/">Brains</a></li>
+                <li><Link to="/">FAQ</Link></li>
+                <li><Link to="/">Contact Us</Link></li>
+                <li><Link to="/">Host Elections</Link></li>
+                <li><Link to="/">Policy</Link></li>
+                <li><Link to="/">Brains</Link></li>
               </ul>
             </div>
             <div className="footer-col">
               <h4>Our Merchandise</h4>
               <ul className="ff">
-                <li><a href="/">Cap</a></li>
-                <li><a href="/">Bag</a></li>
-                <li><a href="/">Hoodies</a></li>
-                <li><a href="/">T-shirts</a></li>
+                <li><Link to="/">Cap</Link></li>
+                <li><Link to="/">Bag</Link></li>
+                <li><Link to="/">Hoodies</Link></li>
+                <li><Link to="/">T-shirts</Link></li>
               </ul>
             </div>
             <div className="footer-col">
               <h4>follow us</h4>
               <div className="social-links">
                 <ul className="ff">
-                  <a href="/"><i className="fab fa-facebook-f"></i></a>
-                  <a href="/"><i className="fab fa-twitter"></i></a>
-                  <a href="/"><i className="fab fa-instagram"></i></a>
-                  <a href="/"><i className="fab fa-linkedin-in"></i></a>
+                  <Link to="/"><i className="fab fa-facebook-f"></i></Link>
+                  <Link to="/"><i className="fab fa-twitter"></i></Link>
+                  <Link to="/"><i className="fab fa-instagram"></i></Link>
+                  <Link to="/"><i className="fab fa-linkedin-in"></i></Link>
                 </ul>
               </div>
             </div>
