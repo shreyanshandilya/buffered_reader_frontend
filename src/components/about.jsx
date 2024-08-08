@@ -1,8 +1,16 @@
-import React from 'react'
+import React, { useEffect } from 'react'
+import demoImg from '/demoImg.jpeg'
 
-const About_Us = () => {
-  return (
-    <div>
+const about = () => {
+
+    window.addEventListener('resize', () => {
+        const elem1 = document.querySelector("#about .introduction")
+        elem1.style.minHeight = `${window.innerHeight * 0.9}px`
+    })
+
+
+    return (
+        <div>
         
         <div className={`w-100 md:-mt-8 h-auto transition-all duration-700 ${true ? "opacity-100 translate-y-0" : "opacity-0 translate-y-32"}`} id="achievements"  >
                 <div className="someAchieve p-2 w-100 bg-slate-100 rounded-2xl position-relative overflow-hidden">
@@ -53,7 +61,8 @@ const About_Us = () => {
                 </div>
             </div>
     </div>
-  )
+
+    )
 }
 
-export default About_Us;
+export default about
