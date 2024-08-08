@@ -1,21 +1,10 @@
-import React, { useEffect , useRef } from 'react'
-import demoImg from '/demoImg.jpeg'
-import Navbar from './navbar'
+import React from 'react'
 
-const about = () => {
-
-    const navbar = useRef()
-
-    window.addEventListener('resize', () => {
-        const elem1 = document.querySelector("#about .introduction")
-        elem1?  elem1.style.minHeight = `${window.innerHeight * 0.9}px` : ''
-    })
-
-
-    return (
-        <>  
-            <div className={`w-100 md:mt-4 h-auto transition-all duration-700 ${true ? "opacity-100 translate-y-0" : "opacity-0 translate-y-32"}`} id="achievements"  >
-                {/* <Navbar isBlack={true} navbar={navbar}/> */}
+const About = () => {
+  return (
+    <div>
+        
+        <div className={`w-100 md:-mt-8 h-auto transition-all duration-700 ${true ? "opacity-100 translate-y-0" : "opacity-0 translate-y-32"}`} id="achievements"  >
                 <div className="someAchieve p-2 w-100 bg-slate-100 rounded-2xl position-relative overflow-hidden">
                     {/* backgroun designing  */}
                     <div className="geometryTopLeft position-absolute w-44 " style={{ top: "-50px", left: "-50px" }}>
@@ -63,9 +52,8 @@ const about = () => {
 
                 </div>
             </div>
-        </>
-
-    )
+    </div> 
+  )
 }
 
-export default about
+export default About
