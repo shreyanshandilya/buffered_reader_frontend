@@ -49,14 +49,14 @@ export default function Hero(props) {
         <div className=' relative w-full h-full flex sm:items-center items-end justify-end ' >
           <Navbar navbar={navbar} isBlack ={false}/>
 
-          <div className="SlideBtns absolute w-full  bottom-0 py-8 z-20">
+          {/* <div className="SlideBtns absolute w-full  bottom-0 py-8 z-20">
             <div className=' mx-auto justify-between flex items-center h-auto' style={{ width: "200px" }}>
               <div className='controlBtn rounded-full cursor-pointer bg-gray-100' style={{ width: "20px", height: "20px" }}></div>
               <div className='controlBtn rounded-full cursor-pointer bg-gray-100' style={{ width: "20px", height: "20px" }}></div>
               <div className='controlBtn rounded-full cursor-pointer bg-gray-100' style={{ width: "20px", height: "20px" }}></div>
               <div className='controlBtn rounded-full cursor-pointer bg-gray-100' style={{ width: "20px", height: "20px" }}></div>
             </div>
-          </div>
+          </div> */}
           <div className="bgAnimation absolute w-full h-full overflow-auto">
             <div className="bgSlide w-full h-full relative">
               <img className=' transition-all duration-1000 ease-in w-full h-full object-cover' src="/download (5).jpeg" />
@@ -67,34 +67,34 @@ export default function Hero(props) {
           </div>
 
           <div id="content" className=" text-white z-10 w-full h-full">
-            <div className="content mx-10 px-16 h-full overflow-hidden transition-all duration-1000 ease-in flex items-center">
+            <div className="content md:mx-10 sm:mx-6 mx-4 md:px-16 sm:px-10 h-full overflow-hidden transition-all duration-1000 ease-in flex items-center">
               <div>
-                <div className="title text-5xl font-[700] my-4  ">Indian Institute of technology Dhanbad</div>
-                <div className=' w-9/12 text-lg '>
+                <div className="title sm:text-5xl text-3xl font-[700] my-4  ">Indian Institute of technology Dhanbad</div>
+                <div className=' sm:w-9/12 w-full sm:text-lg text-base '>
                   Lorem ipsum dolor sit amet consectetur, adipisicing elit. IstLorem ipsum dolor sit amet consectetur, adipisicing elit. IsteLorem ipsum dolor sit amet consectetur, adipisicing elit. Ist at nihil saepe quas quos dicta error modi, sint natus. Eaque
                 </div>
               </div>
             </div>
-            <div className="content mx-10 px-16 h-0 overflow-hidden transition-all duration-1000 ease-in flex items-center">
+            <div className="content md:mx-10 sm:mx-6 mx-4 md:px-16 sm:px-10 h-0 overflow-hidden transition-all duration-1000 ease-in flex items-center">
               <div>
-                <div className="title text-5xl font-[700] my-4  ">Buffer Reader</div>
-                <div className=' w-9/12 text-lg '>
+                <div className="title sm:text-5xl text-3xl font-[700] my-4  ">Buffer Reader</div>
+                <div className=' sm:w-9/12 w-full sm:text-lg text-base '>
                   Lorem ipsum dolor sit amet consectetur, adipisicing elit. IstLorem ipsum dolor sit amet consectetur, adipisicing elit. IsteLorem ipsum dolor sit amet consectetur, adipisicing elit. Ist at nihil saepe quas quos dicta error modi, sint natus. Eaque
                 </div>
               </div>
             </div>
-            <div className="content mx-10 px-16 h-0 overflow-hidden transition-all duration-1000 ease-in flex items-center">
+            <div className="content md:mx-10 sm:mx-6 mx-4 md:px-16 sm:px-10 h-0 overflow-hidden transition-all duration-1000 ease-in flex items-center">
               <div>
-                <div className="title text-5xl font-[700] my-4  ">Cse Socity </div>
-                <div className=' w-9/12 text-lg '>
+                <div className="title sm:text-5xl text-3xl font-[700] my-4  ">Cse Socity </div>
+                <div className='sm:w-9/12 w-full sm:text-lg text-base '>
                   Lorem ipsum dolor sit amet consectetur, adipisicing elit. IstLorem ipsum dolor sit amet consectetur, adipisicing elit. IsteLorem ipsum dolor sit amet consectetur, adipisicing elit. Ist at nihil saepe quas quos dicta error modi, sint natus. Eaque
                 </div>
               </div>
             </div>
-            <div className="content mx-10 px-16 h-0 overflow-hidden transition-all duration-1000 ease-in flex items-center">
+            <div className="content md:mx-10 sm:mx-6 mx-4 md:px-16 sm:px-10 h-0 overflow-hidden transition-all duration-1000 ease-in flex items-center">
               <div>
-                <div className="title text-5xl font-[700] my-4  ">Computer Science And Engineering</div>
-                <div className=' w-9/12 text-lg '>
+                <div className="title sm:text-5xl text-3xl font-[700] my-4  ">Computer Science And Engineering</div>
+                <div className=' sm:w-9/12 w-full sm:text-lg text-base '>
                   Lorem ipsum dolor sit amet consectetur, adipisicing elit. IstLorem ipsum dolor sit amet consectetur, adipisicing elit. IsteLorem ipsum dolor sit amet consectetur, adipisicing elit. Ist at nihil saepe quas quos dicta error modi, sint natus. Eaque
                 </div>
               </div>
