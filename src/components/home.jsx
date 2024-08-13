@@ -31,7 +31,7 @@ const home = () => {
 
 
   window.addEventListener("scroll", () => {
-    scrollAnimation()
+    scrollAnimation() 
   })
 
   return (
