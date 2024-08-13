@@ -3,7 +3,7 @@ import Navbar from '../navbar'
 
 import { useTypewriter, Cursor } from 'react-simple-typewriter';
 
-const Heroic = () => {
+const hero = () => {
   const [text] = useTypewriter({
     words: ['CSE-Society', 'Buffered Reader'],
     loop: true,
