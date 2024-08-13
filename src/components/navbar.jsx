@@ -70,17 +70,17 @@ export default function Navbar(props) {
 
     return (
         <>
-            <header id="navbar" ref={props.navbar} className={`transition-all duration-700 w-full z-20 absolute top-0 left-0 text-black py-3`} >
-                <div className=' relative w-full h-14'>
-                    <div className={`relative transition-all px-3 h-full duration-1000 mx-auto rounded-full border-2 border-slate-400 flex items-center justify-between text-white w-11/12 py-2 ${props.isBlack ? "bg-black" : ''}`} style={{ backgroundColor: "rgba(23, 23, 23, 0.6 )" }}>
+            <header id="navbar" ref={props.navbar} className={` transition-all duration-500 w-full z-20 ${props.isBlack ? "relative" : "absolute"} top-0 left-0 text-black py-3`} >
+                <div className=' relative w-full h-14 md:px-0 px-1'>
+                    <div className={`relative px-1 h-full mx-auto rounded-full border-2 ${props.isBlack ? "border-slate-900" : "border-slate-400"} flex items-center justify-between text-white md:w-11/12 py-2`} style={{ backgroundColor: `${props.isBlack ? "rgb(23 23 57)" : "rgba(23, 23, 23, 0.6 )"}` }}>
 
-                        <Link className=" flex font-medium items-center h-full" onClick={() => { navigate("/") }}>
+                        <Link to="/" className=" flex font-medium items-center h-full" >
                             <img className=' rounded-lg h-full' src={cseSocityIcon} alt="oops" />
                         </Link>
 
 
                         <Link className=" md:block hidden hover:underline underline-offset-8 mx-3 cursor-pointer">Blogs</Link>
-                        <Link to ="/teams" className=" md:block hidden hover:underline underline-offset-8 mx-3 cursor-pointer">Teams</Link>
+                        <Link className=" md:block hidden hover:underline underline-offset-8 mx-3 cursor-pointer">Articles</Link>
                         <Link className=" md:block hidden hover:underline underline-offset-8 mx-3 cursor-pointer">Old_Versions</Link>
                         <Link to="/about" className=" md:block hidden hover:underline underline-offset-8 mx-3 cursor-pointer">Abouts Us</Link>
                         <div className={`cursor-pointer block sm:me-4 me-2 md:hidden h-4/5`} >
@@ -92,7 +92,7 @@ export default function Navbar(props) {
                     </div>
                     <div id="sideNavbar" className={`${!isNavbarCollapse ? 'hidden' : ''} transition-all duration-500 z-30 overflow-hidden flex flex-col justify-evenly items-center absolute bg-neutral-900 text-white text-2xl font-[400] top-full left-0 `} style={{ width: `${window.innerWidth}px`, height: 0 }}>
                         <Link className="py-3 hover:underline underline-offset-8 mx-3 cursor-pointer">Blogs</Link>
-                        <Link to="/teams" className="py-3 hover:underline underline-offset-8 mx-3 cursor-pointer">Teams</Link>
+                        <Link className="py-3 hover:underline underline-offset-8 mx-3 cursor-pointer">Articles</Link>
                         <Link className="py-3 hover:underline underline-offset-8 mx-3 cursor-pointer">Old_Versions</Link>
                         <Link to="/about" className="py-3 hover:underline underline-offset-8 mx-3 cursor-pointer">Abouts Us</Link>
 
