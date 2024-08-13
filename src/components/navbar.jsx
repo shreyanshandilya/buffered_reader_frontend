@@ -70,11 +70,11 @@ export default function Navbar(props) {
 
     return (
         <>
-            <header id="navbar" ref={props.navbar} className={`transition-all duration-700 w-full z-20 absolute top-0 left-0 text-black py-3`} >
-                <div className=' relative w-full h-14'>
-                    <div className={`relative transition-all px-3 h-full duration-1000 mx-auto rounded-full border-2 border-slate-400 flex items-center justify-between text-white w-11/12 py-2 ${props.isBlack ? "bg-black" : ''}`} style={{ backgroundColor: "rgba(23, 23, 23, 0.6 )" }}>
+            <header id="navbar" ref={props.navbar} className={` transition-all duration-500 w-full z-20 ${props.isBlack ? "relative" : "absolute"} top-0 left-0 text-black py-3`} >
+                <div className=' relative w-full h-14 md:px-0 px-1'>
+                    <div className={`relative px-1 h-full mx-auto rounded-full border-2 ${props.isBlack ? "border-slate-900" : "border-slate-400"} flex items-center justify-between text-white md:w-11/12 py-2`} style={{ backgroundColor: `${props.isBlack ? "rgb(23 23 57)" : "rgba(23, 23, 23, 0.6 )"}` }}>
 
-                        <Link className=" flex font-medium items-center h-full" onClick={() => { navigate("/") }}>
+                        <Link to="/" className=" flex font-medium items-center h-full" >
                             <img className=' rounded-lg h-full' src={cseSocityIcon} alt="oops" />
                         </Link>
 

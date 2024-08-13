@@ -3,6 +3,9 @@ import Footer from './Footer'
 import Navbar from './navbar'
 
 const About = () => {
+
+    const navbar = useRef()
+
   return (
     <div>
         <Navbar/>
