@@ -80,7 +80,7 @@ export default function Navbar(props) {
 
 
                         <Link className=" md:block hidden hover:underline underline-offset-8 mx-3 cursor-pointer">Blogs</Link>
-                        <Link to ="/teams" className=" md:block hidden hover:underline underline-offset-8 mx-3 cursor-pointer">Teams</Link>
+                        <Link className=" md:block hidden hover:underline underline-offset-8 mx-3 cursor-pointer">Articles</Link>
                         <Link className=" md:block hidden hover:underline underline-offset-8 mx-3 cursor-pointer">Old_Versions</Link>
                         <Link to="/about" className=" md:block hidden hover:underline underline-offset-8 mx-3 cursor-pointer">Abouts Us</Link>
                         <div className={`cursor-pointer block sm:me-4 me-2 md:hidden h-4/5`} >
@@ -92,7 +92,7 @@ export default function Navbar(props) {
                     </div>
                     <div id="sideNavbar" className={`${!isNavbarCollapse ? 'hidden' : ''} transition-all duration-500 z-30 overflow-hidden flex flex-col justify-evenly items-center absolute bg-neutral-900 text-white text-2xl font-[400] top-full left-0 `} style={{ width: `${window.innerWidth}px`, height: 0 }}>
                         <Link className="py-3 hover:underline underline-offset-8 mx-3 cursor-pointer">Blogs</Link>
-                        <Link to="/teams" className="py-3 hover:underline underline-offset-8 mx-3 cursor-pointer">Teams</Link>
+                        <Link className="py-3 hover:underline underline-offset-8 mx-3 cursor-pointer">Articles</Link>
                         <Link className="py-3 hover:underline underline-offset-8 mx-3 cursor-pointer">Old_Versions</Link>
                         <Link to="/about" className="py-3 hover:underline underline-offset-8 mx-3 cursor-pointer">Abouts Us</Link>
 

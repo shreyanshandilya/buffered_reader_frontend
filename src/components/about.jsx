@@ -1,5 +1,4 @@
-import React from 'react'
-import Footer from './Footer'
+import React, {useRef} from 'react'
 import Navbar from './navbar'
 
 const About = () => {
@@ -8,8 +7,9 @@ const About = () => {
 
   return (
     <div>
-        <Navbar/>
-        <div className={`w-100 md:-mt-8 h-auto transition-all duration-700 ${true ? "opacity-100 translate-y-0" : "opacity-0 translate-y-32"}`} id="achievements"  >
+        
+        <div className={`w-100  h-auto transition-all duration-700 pt-0 `} id="achievements"  >
+                <Navbar navbar={navbar} isBlack={true}/>
                 <div className="someAchieve p-2 w-100 bg-slate-100 rounded-2xl position-relative overflow-hidden">
                     {/* backgroun designing  */}
                     <div className="geometryTopLeft position-absolute w-44 " style={{ top: "-50px", left: "-50px" }}>
@@ -56,8 +56,7 @@ const About = () => {
 
 
                 </div>
-        </div>
-        <Footer/>
+            </div>
     </div> 
   )
 }
