@@ -10,7 +10,7 @@ const editions = () => {
                 <Navbar />
             </div>
             <div id="editions">
-                <div className="introduction relative px-10 flex flex-col justify-center " style={{ height: `${window.innerHeight * 0.}px`, backgroundImage: "linear-gradient(to right ,#508c84 , #47e88a" }}>
+                <div className="introduction relative px-10 flex flex-col justify-center " style={{ height: `${window.innerHeight * 0.7}px`, backgroundImage: "linear-gradient(to right ,#508c84 , #47e88a" }}>
 
                     <div className="heading capitalize text-4xl font-sans font-[700] text-teal-950  ">Buffer reader</div>
                     <div className="content w-10/12 pr-7 py-4">

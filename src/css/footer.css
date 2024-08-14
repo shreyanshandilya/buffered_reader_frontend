@@ -1,28 +1,30 @@
 .container2{
-    max-width: 1170px;
-    margin-left: 70px;
+    max-width: 73.125rem;
+    margin-left: 4.375rem;
   }
   .row{
     display: flex;
     flex-wrap: wrap;
+    --bs-gutter-x: -1.5rem;
   }
   .footer{
     background-color: #24262b;
-    padding: 70px 0;
+    padding: 4.375rem 0;
 
   }
   ul.ff{
     list-style: none;
+    padding-top: 1rem;
   }
   .footer-col{
     width: 22%;
-    padding: 0 15px;
+    padding: 0 .938rem;
   }
   .footer-col h4{
     font-size: 18px;
     color: #ffffff;
     text-transform: capitalize;
-    margin-bottom: 35px;
+    margin-bottom: 2.188;
     font-weight: 500;
     position: relative;
 
@@ -31,18 +33,18 @@
     content: '';
     position: absolute;
     left: 0;
-    bottom: -10px;
+    bottom: -.6rem;
     background-color: #e91e63;
-    height: 2px;
+    height: .125rem;
     box-sizing: border-box;
-    width: 50px;
+    width: 3.125rem;
   }
   .footer-col ul li:not(:last-child){
-    margin-bottom: 10px;
+    margin-bottom: .625rem;
 
   }
   .footer-col ul li a{
-    font-size: 16px;
+    font-size: 1rem;
     text-transform: capitalize;
     color: #ffffff;
     text-decoration: none;
@@ -54,18 +56,18 @@
   }
   .footer-col ul li a:hover{
     color: #ffffff;
-    padding-left: 8px;
+    padding-left: .5rem;
 
 
 }
   .footer-col .social-links a{  
     display: inline-block;
-    height: 40px;
-    width:40px;
+    height: 2.5rem;
+    width: 2.5rem;
     background-color: rgba(255,255,255,0.2);
     margin: 0 10px 10px 0;
     text-align: center;
-    line-height: 40px;
+    line-height: 2.5rem;
     border-radius: 50%;
     color: #ffffff;
     transition: all 0.5s ease;
@@ -75,4 +77,33 @@
   .footer-col .social-links a:hover{
     color: #24262b;
     background-color: #ffffff;
+  }
+
+  @media only screen and (max-width: 450px){
+    .footer-col {
+      width: 90%;
+      padding: 0 15px;
+  }
+
+  .row{
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+  }
+  .container2{
+      margin-left: 3rem;
+  }
+  .footer-col h4 {
+      font-size: 1.5rem;
+      color: #ffffff;
+      text-transform: capitalize;
+      margin: 2rem 0rem;
+      font-weight: 500;
+      position: relative;
+  }
+  .footer {
+      background-color: #24262b;
+      padding: 3rem 0;
+  }
+
   }
