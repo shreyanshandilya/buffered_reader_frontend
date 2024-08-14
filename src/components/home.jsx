@@ -39,7 +39,7 @@ const home = () => {
        <Hero homeRef={homeRef} />
       <Purpose purposeRef={purposeRef} isPurposeVisible={isPurposeVisible} />
       <Achievements achievementRef={achievementRef} isAchieveVisible={isAchieveVisible} />
-      {/* <Footer/> */}
+      <Footer/> 
     </>
   )
 }
