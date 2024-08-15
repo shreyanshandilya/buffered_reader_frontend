@@ -1,8 +1,9 @@
 import React, { useEffect, useRef, useState } from 'react'
 import Achievements from './landing page/achievements'
-import Hero from './landing page/hero'
+// import Hero from './landing page/Hero'
 import Purpose from './landing page/purpose'
 import Footer from './Footer'
+import Hero from './landing page/hero'
 
 const home = () => {
 
@@ -36,10 +37,10 @@ const home = () => {
 
   return (
     <>
-       <Hero homeRef={homeRef} />
+      <Hero homeRef= {homeRef}/>
       <Purpose purposeRef={purposeRef} isPurposeVisible={isPurposeVisible} />
       <Achievements achievementRef={achievementRef} isAchieveVisible={isAchieveVisible} />
-      <Footer/> 
+      <Footer/>
     </>
   )
 }

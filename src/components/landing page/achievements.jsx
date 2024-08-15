@@ -33,7 +33,7 @@ const achievements = (props) => {
     return (
         <>
             <div className={`w-100 h-auto transition-all duration-700 ${props.isAchieveVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-32"}`} id="achievements" ref={props.achievementRef} >
-                <div className="someAchieve p-2 w-100 bg-slate-100 rounded-2xl position-relative overflow-hidden">
+                <div className="someAchieve p-2 w-100 bg-[#f2f1e3] rounded-2xl position-relative overflow-hidden">
                     {/* backgroun designing  */}
                     <div className="geometryTopLeft position-absolute w-44 " style={{ top: "-50px", left: "-50px" }}>
                         <svg viewBox="0 0 1080 1080" xmlns="http://www.w3.org/2000/svg">
