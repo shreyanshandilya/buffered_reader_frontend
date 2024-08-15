@@ -46,17 +46,10 @@ export default function Hero(props) {
     <>
 
       <div id="hero" className=' overflow-hidden' ref={props.homeRef} style={{ height: `${window.innerHeight}px` }}>
+          
+          <div className=' absolute w-full top-0  left-0'><Navbar navbar={navbar} isBlack ={false}/></div>
         <div className=' relative w-full h-full flex sm:items-center items-end justify-end ' >
-          <Navbar navbar={navbar} isBlack ={false}/>
 
-          {/* <div className="SlideBtns absolute w-full  bottom-0 py-8 z-20">
-            <div className=' mx-auto justify-between flex items-center h-auto' style={{ width: "200px" }}>
-              <div className='controlBtn rounded-full cursor-pointer bg-gray-100' style={{ width: "20px", height: "20px" }}></div>
-              <div className='controlBtn rounded-full cursor-pointer bg-gray-100' style={{ width: "20px", height: "20px" }}></div>
-              <div className='controlBtn rounded-full cursor-pointer bg-gray-100' style={{ width: "20px", height: "20px" }}></div>
-              <div className='controlBtn rounded-full cursor-pointer bg-gray-100' style={{ width: "20px", height: "20px" }}></div>
-            </div>
-          </div> */}
           <div className="bgAnimation absolute w-full h-full overflow-auto">
             <div className="bgSlide w-full h-full relative">
               <img className=' transition-all duration-1000 ease-in w-full h-full object-cover' src="/download (5).jpeg" />

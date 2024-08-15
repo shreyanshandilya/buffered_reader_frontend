@@ -3,8 +3,9 @@ import { HashRouter as Router , Routes, Route } from "react-router-dom"
 import Home from "./components/home"
 import About from "./components/about"
 import Purpose from './components/landing page/purpose'
-import Footer from "./components/Footer"
 import Teams from "./components/Teams"
+import Editions from "./components/editios/editions"
+import Footer from "./components/Footer"
 
 function App() {
 
@@ -16,6 +17,7 @@ function App() {
       <Route path="/about" element={<><About /></>} />
       <Route path="/teams" element={<><Teams /></>} />
       <Route path="/purpose" element={<Purpose />} />
+      <Route path="/editions" element={< Editions/>} />
     </Routes>
   </Router>
   )
