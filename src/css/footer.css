@@ -79,7 +79,7 @@
     background-color: #ffffff;
   }
 
-  @media only screen and (max-width: 450px){
+  @media only screen and (max-width: 683px){
     .footer-col {
       width: 90%;
       padding: 0 15px;
