@@ -45,7 +45,7 @@ export default function Hero(props) {
   return (
     <>
 
-      <div id="hero" className=' overflow-hidden' ref={props.homeRef} style={{ height: `${window.innerHeight}px` }}>
+      <div id="hero" className=' overflow-hidden' ref={props.homeRef} s0tyle={{ height: `${window.innerHeight}px` }}>
           
           <div className=' absolute w-full top-0  left-0'><Navbar navbar={navbar} isBlack ={false}/></div>
         <div className=' relative w-full h-full flex sm:items-center items-end justify-end ' >
