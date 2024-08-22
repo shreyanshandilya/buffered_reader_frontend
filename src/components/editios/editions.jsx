@@ -16,7 +16,7 @@ const editions = () => {
                     <div className="content w-10/12 pr-7 py-4">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem adipisci nam ducimus reiciendis quam. At consequatur laboriosam assumenda ut eaque pariatur, dolorem, rerum repellendus eius sequi deserunt quas cupiditate et.
                     </div>
-                    <div className="wave absolute w-full h-2/6  bottom-0 left-0" style={{ backgroundImage: `url(${waveImg})`, backgroundSize: '100% 100%' }}>
+                    <div className="wave absolute w-full h-2/6  bottom-0 left-0" style={{ backgroundImage: `url(${waveImg})`, backgroundSize: '120% 100%' }}>
                     </div>
                 </div>
                 <div className="alleditons">

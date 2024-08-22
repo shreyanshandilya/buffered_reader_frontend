@@ -6,6 +6,7 @@ import Purpose from './components/landing page/purpose'
 import Teams from "./components/Teams"
 import Editions from "./components/editios/editions"
 
+
 function App() {
 
   return (

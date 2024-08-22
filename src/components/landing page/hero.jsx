@@ -1,100 +1,57 @@
-import React, { useRef, useState, useEffect } from 'react'
-import bgImg from '/download (2).jpeg'
+import React from 'react'
 import Navbar from '../navbar'
 
-export default function Hero(props) {
+import { useTypewriter, Cursor } from 'react-simple-typewriter';
 
-  const [Height, setHeight] = useState(window.innerHeight * 0.9)
-
-  const navbar = useRef()
-
-  const animation = () => {
-    const bgSlide = document.querySelector("#hero .bgSlide")
-    const images = Array.from(bgSlide.querySelectorAll('img'))
-    const contents = Array.from(document.querySelectorAll("#hero #content .content"))
-    let index = 1;
-    setInterval(() => {
-      console.log(index)
-      for (let i = 0; i < images.length; i++) {
-        i === index ? (() => {
-          images[i].classList.remove("h-0")
-          images[i].classList.add("h-full")
-          contents[i].classList.remove("h-0")
-          contents[i].classList.add("h-full")
-        })() : (() => {
-          images[i].classList.add("h-0")
-          images[i].classList.remove("h-full")
-          contents[i].classList.add("h-0")
-          contents[i].classList.remove("h-full")
-        })()
-      }
-      index === images.length - 1 ? index = 0 : index++;
-    }, 5000)
-  }
-
-  useEffect(() => {
-    animation()
-  }, [])
-
-
-  window.addEventListener('resize', () => {
-    const hero = document.querySelector("#hero")
-    hero ? hero.style.height = `${Math.max(window.innerHeight, Height)}px` : ''
+const Hero = (props) => {
+  const [text] = useTypewriter({
+    words: ['CSE-Society', 'Buffered Reader'],
+    loop: true,
+    typeSpeed: 80,
+    deleteSpeed: 80,
+    
   })
 
   return (
-    <>
+    <div ref={props.homeRef}>
+   
+    <section className="relative bg-cover bg-center h-screen">
+    <Navbar/>   
+    <img className=' transition-all duration-1000 ease-in w-full h-full object-cover' src="/pattern (4).svg" />
+        <div className="absolute inset-0 flex items-center justify-center">
+            <div className="text-center text-white px-6 md:px-12">
+                    <div className=''>
+                      <a href='https://www.iitism.ac.in/'>  
+                      <img className=' h-40 w-40 object-cover inline-block object-center' src="/logo2.png" alt="" /> 
+                      </a>   
+                    </div>
+                    <h1 className="text-3xl text-gray-800 md:text-4xl font-bold mb-3 pt-2">IIT (ISM) DHANBAD</h1>
+                    {/* <div classNameName='font-extrabold text-gray-900 tracking-widest mb-3'>Cse Society</div> */}
+                    <div className='text-xl text-gray-800 pt-1 '>
+                      <div className='text-lg italic tracking-widest'>
+                          <span className=' text-lg '>" Dept. Of Computer Science & Eng.</span><span className='text-orange-500 '> presents" ,</span>
+                      </div>
+                     <br/>
+                     <div className='font-mono pt-3'> 
+                        <span className='text-black text-3xl pt-4 tracking-wide underline'>
+                            {text}
+                            
+                          </span>
+                          <span className='text-orange-700 text-4xl'>
+                            <Cursor className='text-4xl' cursorBlinking={false} cursorStyle='..'/>
+                          </span>
+                      </div>
+                      <div className='z-50 top-20 right-7  fixed'><button type="button" class="sticky text-gray-900 bg-gradient-to-r from-red-200 via-red-300 to-yellow-200 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-red-100 dark:focus:ring-red-400 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2">Latest Edition</button></div>
+                      </div>
+                    {/* <div className='text-2xl text-gray-800 '>CSE Society</div>
+                    <div className='text-2xl text-gray-800 '>Buffered Reader</div> */}
 
-      <div id="hero" className=' overflow-hidden' ref={props.homeRef} s0tyle={{ height: `${window.innerHeight}px` }}>
-          
-          <div className=' absolute w-full top-0  left-0'><Navbar navbar={navbar} isBlack ={false}/></div>
-        <div className=' relative w-full h-full flex sm:items-center items-end justify-end ' >
-
-          <div className="bgAnimation absolute w-full h-full overflow-auto">
-            <div className="bgSlide w-full h-full relative">
-              <img className=' transition-all duration-1000 ease-in w-full h-full object-cover' src="/download (5).jpeg" />
-              <img className=' transition-all duration-1000 ease-in w-full h-0 object-cover' src="/download (4).jpeg" />
-              <img className=' transition-all duration-1000 ease-in w-full h-0 object-cover' src="/download (3).jpeg" />
-              <img className=' transition-all duration-1000 ease-in w-full h-0 object-cover' src="/download (2).jpeg" />
+                    
             </div>
-          </div>
-
-          <div id="content" className=" text-white z-10 w-full h-full">
-            <div className="content md:mx-10 sm:mx-6 mx-4 md:px-16 sm:px-10 h-full overflow-hidden transition-all duration-1000 ease-in flex items-center">
-              <div>
-                <div className="title sm:text-5xl text-3xl font-[700] my-4  ">Indian Institute of technology Dhanbad</div>
-                <div className=' sm:w-9/12 w-full sm:text-lg text-base '>
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. IstLorem ipsum dolor sit amet consectetur, adipisicing elit. IsteLorem ipsum dolor sit amet consectetur, adipisicing elit. Ist at nihil saepe quas quos dicta error modi, sint natus. Eaque
-                </div>
-              </div>
-            </div>
-            <div className="content md:mx-10 sm:mx-6 mx-4 md:px-16 sm:px-10 h-0 overflow-hidden transition-all duration-1000 ease-in flex items-center">
-              <div>
-                <div className="title sm:text-5xl text-3xl font-[700] my-4  ">Buffer Reader</div>
-                <div className=' sm:w-9/12 w-full sm:text-lg text-base '>
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. IstLorem ipsum dolor sit amet consectetur, adipisicing elit. IsteLorem ipsum dolor sit amet consectetur, adipisicing elit. Ist at nihil saepe quas quos dicta error modi, sint natus. Eaque
-                </div>
-              </div>
-            </div>
-            <div className="content md:mx-10 sm:mx-6 mx-4 md:px-16 sm:px-10 h-0 overflow-hidden transition-all duration-1000 ease-in flex items-center">
-              <div>
-                <div className="title sm:text-5xl text-3xl font-[700] my-4  ">Cse Socity </div>
-                <div className='sm:w-9/12 w-full sm:text-lg text-base '>
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. IstLorem ipsum dolor sit amet consectetur, adipisicing elit. IsteLorem ipsum dolor sit amet consectetur, adipisicing elit. Ist at nihil saepe quas quos dicta error modi, sint natus. Eaque
-                </div>
-              </div>
-            </div>
-            <div className="content md:mx-10 sm:mx-6 mx-4 md:px-16 sm:px-10 h-0 overflow-hidden transition-all duration-1000 ease-in flex items-center">
-              <div>
-                <div className="title sm:text-5xl text-3xl font-[700] my-4  ">Computer Science And Engineering</div>
-                <div className=' sm:w-9/12 w-full sm:text-lg text-base '>
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. IstLorem ipsum dolor sit amet consectetur, adipisicing elit. IsteLorem ipsum dolor sit amet consectetur, adipisicing elit. Ist at nihil saepe quas quos dicta error modi, sint natus. Eaque
-                </div>
-              </div>
-            </div>
-          </div>
         </div>
-      </div>
-    </>
+      </section>
+    </div>
   )
 }
+
+export default Hero;
