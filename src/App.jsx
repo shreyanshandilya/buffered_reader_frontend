@@ -4,7 +4,7 @@ import Home from "./components/home"
 import About from "./components/about"
 import Purpose from './components/landing page/purpose'
 import Teams from "./components/Teams"
-import Editions from "./components/editios/editions"
+import Editions from "./components/editions/editions"
 
 
 function App() {
