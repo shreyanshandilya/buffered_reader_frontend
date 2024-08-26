@@ -82,15 +82,30 @@ const About = () => {
           <section className="text-gray-600 body-font">
             <div className="container px-5 py-20 mx-auto">
               <div className="xl:w-3/4 lg:w-3/4 w-full mx-auto text-center">
-                <img
-                  alt="testimonial"
-                  className=" w-40 h-40 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 shadow-lg bg-gray-100"
-                  src="/sb_sir.jpg"
-                />
-                <h2 className="text-gray-900 pb-1 font-medium title-font tracking-wider text-sm">
-                  Prof. Soumen Bag
-                </h2>
-                <p className="text-gray-500">Faculty Incharge: Dept. Of Computer Science</p>
+                <div className=" flex justify-center items-center mb-4">
+                  <div>
+                    <img
+                      alt="testimonial"
+                      className=" mx-3 w-40 h-40 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 shadow-lg bg-gray-100"
+                      src="/sb_sir.jpg"
+                    />
+                    <h2 className="text-gray-900 pb-1 font-medium title-font tracking-wider text-sm">
+                      Prof. Soumen Bag
+                    </h2>
+                  </div>
+                  <div>
+                    <img
+                      alt="testimonial"
+                      className=" mx-3 w-40 h-40 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 shadow-lg bg-gray-100"
+                      src="/pb_coFIC.jpg"
+                    />
+                    <h2 className="text-gray-900 pb-1 font-medium title-font tracking-wider text-sm">
+                    Dr. Prakhar Bisht
+                    </h2>
+                  </div>
+                </div>
+
+                <p className="text-gray-500">Faculty Incharge: Buffered Reader</p>
 
                 <span className="inline-block h-1 w-10 rounded bg-indigo-500 mt-8 mb-6"></span>
                 <p className="leading-relaxed text-lg">
