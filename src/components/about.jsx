@@ -22,10 +22,7 @@ const About = () => {
             Our Aim ?
           </div>
           <div className="content w-10/12 pr-7 py-4">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem
-            adipisci nam ducimus reiciendis quam. At consequatur laboriosam
-            assumenda ut eaque pariatur, dolorem, rerum repellendus eius sequi
-            deserunt quas cupiditate et.
+            The aim of the CSE Society is to create a dynamic and supportive environment that nurtures the technical and creative abilities of students in the field of computer science and engineering. We aim to bridge the gap between theoretical knowledge and practical application by organizing a variety of events, workshops, and collaborative projects. Our goal is to cultivate innovation, foster teamwork, and equip members with the skills and experiences needed to excel in their academic and professional careers, while also promoting a sense of community and lifelong learning among our members.
           </div>
           <div
             className="wave absolute w-full h-1/6  bottom-0 left-0"
@@ -41,13 +38,13 @@ const About = () => {
               <div className="xl:w-3/4 lg:w-3/4 w-full mx-auto text-center">
                 <img
                   alt="testimonial"
-                  className="w-40 h-40 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 shadow-lg bg-gray-100"
+                  className="w-40 h-40 mb-8 object-cover rounded-full inline-block border-2 border-gray-200 shadow-lg bg-gray-100"
                   src="/ck_sir.jpg"
                 />
                 <h2 className="text-gray-900 pb-1 font-medium title-font tracking-wider text-sm">
                   Prof. Chiranjeev Kumar
                 </h2>
-                <p className="text-gray-500">HOD: Dept. Of Computer Science</p>
+                <p className="text-gray-500">Head: Department Of Computer Science and Engineering</p>
 
                 <span className="inline-block h-1 w-10 rounded bg-indigo-500 mt-8 mb-6"></span>
                 <p className="leading-relaxed text-lg">
@@ -55,7 +52,7 @@ const About = () => {
                   Department, I am excited to introduce our CSE Society's
                   digital platform, a vibrant space where the intellectual and
                   creative endeavors of our students come together. This
-                  website, featuring the digital archives of Buffered Reader,
+                  website, featuring the digital archives of <i>Buffered Reader</i>,
                   our department's magazine, represents our dedication to
                   nurturing a culture of innovation and knowledge-sharing. By
                   preserving and making accessible the wealth of ideas captured
@@ -86,7 +83,7 @@ const About = () => {
                   <div>
                     <img
                       alt="testimonial"
-                      className=" mx-3 w-40 h-40 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 shadow-lg bg-gray-100"
+                      className=" mx-3 w-40 h-40 mb-8 object-center rounded-full inline-block border-2 border-gray-200 shadow-lg bg-gray-100"
                       src="/sb_sir.jpg"
                     />
                     <h2 className="text-gray-900 pb-1 font-medium title-font tracking-wider text-sm">
@@ -96,16 +93,16 @@ const About = () => {
                   <div>
                     <img
                       alt="testimonial"
-                      className=" mx-3 w-40 h-40 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 shadow-lg bg-gray-100"
+                      className=" mx-3 w-40 h-40 mb-8 object-center rounded-full inline-block border-2 border-gray-200 shadow-lg bg-gray-100"
                       src="/pb_coFIC.jpg"
                     />
                     <h2 className="text-gray-900 pb-1 font-medium title-font tracking-wider text-sm">
-                    Dr. Prakhar Bisht
+                    Dr. Pranav Bisht
                     </h2>
                   </div>
                 </div>
 
-                <p className="text-gray-500">Faculty Incharge: Buffered Reader</p>
+                <p className="text-gray-500">Faculty Incharge & Co-Faculty Incharge: Buffered Reader</p>
 
                 <span className="inline-block h-1 w-10 rounded bg-indigo-500 mt-8 mb-6"></span>
                 <p className="leading-relaxed text-lg">

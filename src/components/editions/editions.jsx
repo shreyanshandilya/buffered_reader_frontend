@@ -16,7 +16,7 @@ const editions = () => {
 
                     <div className="heading capitalize text-4xl font-sans font-[700] text-teal-950  ">Buffer reader</div>
                     <div className="content w-10/12 pr-7 py-4">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem adipisci nam ducimus reiciendis quam. At consequatur laboriosam assumenda ut eaque pariatur, dolorem, rerum repellendus eius sequi deserunt quas cupiditate et.
+                        Welcome to the archives of the CSE Society, where we proudly present the digital versions of our previous editions of <i>Buffered Reader</i>. These past publications reflect the journey of our society, showcasing the creativity, insights, and technological explorations of our members over the years. Each edition captures the evolving landscape of computer science, featuring articles, project highlights, interviews, and more. Explore these archives to witness the rich history of our society, and gain inspiration from the achievements and ideas that have shaped our community.
                     </div>
                     <div className="wave absolute w-full h-2/6  bottom-0 left-0" style={{ backgroundImage: `url(${waveImg})`, backgroundSize: '100% 100%' }}>
                     </div>
@@ -36,7 +36,7 @@ const editions = () => {
                                         <div className="content py-2 text-base font-sans ">
                                             {edition.des}
                                         </div>
-                                        <a href={edition.link} className="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">Read More
+                                        <a href={edition.link} className="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0" target="blank">Read More
                                             <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2" fill="none" strokeLinecap="round" strokeLinejoin="round">
                                             <path d="M5 12h14"></path>
                                             <path d="M12 5l7 7-7 7"></path>
