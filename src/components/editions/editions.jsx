@@ -14,7 +14,7 @@ const editions = () => {
             <div id="editions">
                 <div className="introduction relative px-10 flex flex-col justify-center " style={{ height: `${window.innerHeight * 0.7}px`, backgroundImage: "linear-gradient(to right ,#508c84 , #47e88a" }}>
 
-                    <div className="heading capitalize text-4xl font-sans font-[700] text-teal-950  ">Buffer reader</div>
+                    <div className="heading capitalize text-4xl font-sans font-[700] text-teal-950  ">BUFFERED READER</div>
                     <div className="content w-10/12 pr-7 py-4">
                         Welcome to the archives of the CSE Society, where we proudly present the digital versions of our previous editions of <i>Buffered Reader</i>. These past publications reflect the journey of our society, showcasing the creativity, insights, and technological explorations of our members over the years. Each edition captures the evolving landscape of computer science, featuring articles, project highlights, interviews, and more. Explore these archives to witness the rich history of our society, and gain inspiration from the achievements and ideas that have shaped our community.
                     </div>

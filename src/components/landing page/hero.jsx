@@ -5,7 +5,7 @@ import { useTypewriter, Cursor } from 'react-simple-typewriter';
 
 const Hero = (props) => {
   const [text] = useTypewriter({
-    words: ['CSE SOCIETY', 'BUFFERED READER'],
+    words: ['BUFFERED READER'],
     loop: true,
     typeSpeed: 80,
     deleteSpeed: 80,
@@ -29,7 +29,7 @@ const Hero = (props) => {
                     {/* <div classNameName='font-extrabold text-gray-900 tracking-widest mb-3'>Cse Society</div> */}
                     <div className='text-xl text-gray-800 pt-1 '>
                       <div className='text-lg italic tracking-widest'>
-                          <span className=' text-lg font-bold'>" DEPARTMENT OF COMPUTER SCIENCE AND ENGINEERING</span><span className='text-orange-500 font-bold'> PRESENTS" ,</span>
+                          <span className=' text-lg font-bold'>COMPUTER SCIENCE AND ENGINEERING SOCEITY OF IIT (ISM) </span><span className='text-orange-500 font-bold'> PRESENTS ITS BIANNUAL MAGAZINE ,</span>
                       </div>
                      <br/>
                      <div className='pt-3 font-bold'> 
