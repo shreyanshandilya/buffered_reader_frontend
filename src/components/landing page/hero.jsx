@@ -20,7 +20,7 @@ const Hero = (props) => {
     <img className=' transition-all duration-1000 ease-in w-full h-full object-cover' src="/pattern (4).svg" />
         <div className="absolute inset-0 flex items-center justify-center">
             <div className="text-center text-white px-6 md:px-12">
-                    <div className=''>
+                    <div className='md:pt-14 md:pb-5 '>
                       <a href='https://www.iitism.ac.in/'>  
                       <img className=' h-40 w-40 object-cover inline-block object-center' src="/logo2.png" alt="" /> 
                       </a>   
@@ -42,11 +42,13 @@ const Hero = (props) => {
                           </span>
                       </div>
                       <a href="https://drive.google.com/file/d/19Js8ByMzdl9scU3ACAEHHcEIpRsi2BTE/view?usp=drive_link">
-                      <div className='z-50 top-20 right-7  fixed'><button type="button" class="sticky text-gray-900 bg-gradient-to-r from-red-200 via-red-300 to-yellow-200 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-red-100 dark:focus:ring-red-400 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2">Latest Edition</button></div>
+                      <div className='mt-9 mb-0'>
+                            <button type="button" className="text-gray-900 bg-gradient-to-r from-red-200 via-red-300 to-yellow-200 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-red-100 dark:focus:ring-red-400 font-medium rounded-lg text-sm px-3 py-2.5 text-center me-2 mb-2">
+                              Latest Edition
+                            </button>
+                      </div>
                       </a>
                       </div>
-                    {/* <div className='text-2xl text-gray-800 '>CSE Society</div>
-                    <div className='text-2xl text-gray-800 '>Buffered Reader</div> */}
 
                     
             </div>
