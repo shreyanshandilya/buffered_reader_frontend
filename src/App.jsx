@@ -5,7 +5,7 @@ import About from "./components/about"
 import Purpose from './components/landing page/purpose'
 import Teams from "./components/Teams"
 import Editions from "./components/editions/editions"
-
+import upcomingEvents from "./components/landing page/upcomingEvents"
 
 function App() {
 
@@ -17,6 +17,7 @@ function App() {
       <Route path="/about" element={<><About /></>} />
       <Route path="/teams" element={<><Teams /></>} />
       <Route path="/purpose" element={<Purpose />} />
+      <Route path="/upcoming-events" element={<upcomingEvents/>} />
       <Route path="/editions" element={< Editions/>} />
     </Routes>
   </Router>
