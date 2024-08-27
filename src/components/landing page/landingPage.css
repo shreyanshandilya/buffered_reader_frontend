@@ -41,8 +41,13 @@
 }
 
 #purpose .slide{
-    animation: slidePurpose 25s ease 0s infinite;
+    animation: slidePurpose 25s ease 25s infinite;
+    transition: ease-in-out;
+    animation-delay: 10s;
+    
 }
+
+
 @keyframes slidePurpose{
     0%{
         transform: translateX(0);
