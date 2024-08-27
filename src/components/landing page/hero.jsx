@@ -25,11 +25,12 @@ const Hero = (props) => {
                       <img className=' h-40 w-40 object-cover inline-block object-center' src="/logo2.png" alt="" /> 
                       </a>   
                     </div>
+                    <h2 className="text-3xl text-gray-800 md:text-3xl font-bold mb=3 pt-2">COMPUTER SCIENCE & ENGINEERING SOCIETY</h2>
                     <h1 className="text-3xl text-gray-800 md:text-4xl font-bold mb-3 pt-2">INDIAN INSTITUTE OF TECHNOLOGY (ISM) DHANBAD</h1>
                     {/* <div classNameName='font-extrabold text-gray-900 tracking-widest mb-3'>Cse Society</div> */}
                     <div className='text-xl text-gray-800 pt-1 '>
                       <div className='text-lg italic tracking-widest'>
-                          <span className=' text-lg font-bold'>COMPUTER SCIENCE AND ENGINEERING SOCEITY OF IIT (ISM) </span><span className='text-orange-500 font-bold'> PRESENTS ITS BIANNUAL MAGAZINE ,</span>
+                          <span className='text-orange-500 font-bold md:text-3xl'> PRESENTS ITS BIANNUAL MAGAZINE ,</span>
                       </div>
                      <br/>
                      <div className='pt-3 font-bold'> 

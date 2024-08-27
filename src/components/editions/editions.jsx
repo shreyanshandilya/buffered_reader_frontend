@@ -29,6 +29,7 @@ const editions = () => {
                                 <div className={edition.sem === "Winter-Edition"? "bg-gradient-to-r from-[#62eddb] via-[#ffdd93] to-[#7fe9ff]": "bg-gradient-to-r from-[#f9ff91] via-[#ffdd93] to-[#7fe9ff]"}>
                                     <div className="magazines shadow-lg shadow-slate-800 px-4 py-3 my-4 rounded-lg">
                                         <div className="title text-3xl font-serif text-slate-800 font-[600]">{edition.sem}</div>
+                                        <img src={edition.bg_url} className="w-40 h-40"></img>
                                         <div className="releaseDate text-sm text-gray-500 pb-2" style={{ borderBottom: "1px solid grey" }}>{edition.month}</div>
                                         <div className="content py-2 text-base font-sans ">
                                             <b><i>{edition.catch}</i></b>
