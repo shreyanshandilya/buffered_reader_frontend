@@ -27,13 +27,14 @@ const purpose = (props) => {
         <>
             <div className={`p-3 position-relative transition-all duration-700  ${props.isPurposeVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-32"} `} id="purpose" ref={props.purposeRef}>
 
-                <div className=" py-8 shadow-2xl rounded-xl  shadow-[#918b7c] flex md:flex-row flex-col md:justify-center items-center px-3"
-                style={{backgroundImage:"linear-gradient(to right, #2bc0e4, #eaecc6)"}}>
+                <div className=" py-20 shadow-2xl rounded-xl  shadow-[#918b7c] bg-[#f2f1e3] flex md:flex-row flex-col md:justify-center items-center px-3"
+                // style={{backgroundImage:"linear-gradient(to right, #00c9ff, #92fe9d)"}}
+                >
                     <div className="heading sm:w-4/12 w-full text-3xl font-[800] uppercase sm:my-6 text-center">Purpose</div>
                     <div className=" md:w-5/12 sm:w-9/12 w-full mx-6 my-4 overflow-hidden">
-                        <div className='slide flex justify-between items-center' style={{width:"400%"}}>
+                        <div className='slide flex justify-between items-start' style={{width:"300%"}}>
                             {purposeData.map((elem) => {
-                                return <div className=" w-1/2 mx-4" key={elem.id}>
+                                return <div className=" w-1/3 px-4" key={elem.id}>
                                     <div className="title text-xl font-[700] my-6">{elem.head}</div>
                                     <div className="content text-base font-[400] ">
                                       {elem.data}
@@ -41,8 +42,6 @@ const purpose = (props) => {
                                 </div>
                             })}
                         </div>
-
-
                     </div>
                 </div>
             </div>

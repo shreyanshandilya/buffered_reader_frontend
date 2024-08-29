@@ -8,6 +8,7 @@ export default function Navbar(props) {
 
     const [isNavbarCollapse, setisnavbarCollapse] = useState(false)
 
+
     window.addEventListener('resize', () => {
         const bar = document.querySelector("#navbar .bar")
         const cross = document.querySelector("#navbar .cross")
@@ -27,6 +28,8 @@ export default function Navbar(props) {
             sideNavbar.style.width = `${window.innerWidth}px`
     })
 
+   
+
     useEffect(() => {
         const bar = document.querySelector("#navbar .bar")
         const cross = document.querySelector("#navbar .cross")
@@ -34,6 +37,7 @@ export default function Navbar(props) {
         const slideBtns = document.querySelector("#hero .SlideBtns")
         const navbar = document.querySelector("#navbar")
         bar.addEventListener('click', () => {
+            document.body.style.overflow = "hidden"
             bar.classList.add("hidden")
             cross.classList.remove("hidden")
             sideNavbar.style.height = `calc(${window.innerHeight}px - 3.5rem)`
@@ -41,6 +45,7 @@ export default function Navbar(props) {
             navbar.classList.add("bg-neutral-900")
         })
         cross.addEventListener('click', () => {
+            document.body.style.overflow = " "
             bar.classList.remove("hidden")
             cross.classList.add("hidden")
             sideNavbar.style.height = 0
@@ -66,6 +71,7 @@ export default function Navbar(props) {
                 slideBtns ? slideBtns.classList.remove('hidden') : ''
             })() : ''
     }, [])
+    
 
 
     return (
@@ -92,9 +98,9 @@ export default function Navbar(props) {
                     </div>
                     <div id="sideNavbar" className={`${!isNavbarCollapse ? 'hidden' : ''} transition-all duration-500 z-30 overflow-hidden flex flex-col justify-evenly items-center absolute bg-neutral-900 text-white text-2xl font-[400] top-full left-0 `} style={{ width: `${window.innerWidth}px`, height: 0 }}>
                         <Link  className="py-3 hover:underline underline-offset-8 mx-3 cursor-pointer" onClick={()=>alert("COMING SOON")}>BLOGS</Link>
-                        <Link to="/teams" className="py-3 hover:underline underline-offset-8 mx-3 cursor-pointer">TEAMS</Link>
-                        <Link to="/editions" className="py-3 hover:underline underline-offset-8 mx-3 cursor-pointer">EARLIER EDITIONS</Link>
-                        <Link to="/about" className="py-3 hover:underline underline-offset-8 mx-3 cursor-pointer">ABOUT US</Link>
+                        <Link to="/teams" className="py-3 hover:underline underline-offset-8 mx-3 cursor-pointer" onClick={()=>{document.body.style.overflow=""}}>TEAMS</Link>
+                        <Link to="/editions" className="py-3 hover:underline underline-offset-8 mx-3 cursor-pointer" onClick={()=>{document.body.style.overflow=""}}>EARLIER EDITIONS</Link>
+                        <Link to="/about" className="py-3 hover:underline underline-offset-8 mx-3 cursor-pointer" onClick={()=>{document.body.style.overflow=""}}>ABOUT US</Link>
                     </div>
                 </div>
 
