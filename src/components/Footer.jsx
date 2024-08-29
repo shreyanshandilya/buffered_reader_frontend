@@ -6,7 +6,7 @@ import 'https://kit.fontawesome.com/3acc7f1241.js';
 export default function Footer() {
   return (
    <>
-   <footer className="footer" id="Footer">
+   <footer className="footer z-10" id="Footer">
         <div className="container2">
           <div className="row">
             <div className="footer-col">

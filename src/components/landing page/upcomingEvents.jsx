@@ -1,6 +1,6 @@
 import React from 'react';
 import upcomingEventsData from './upcomingEventsData.json';
-import './landingPage.css';
+import '../../css/landingPage.css';
 
 const UpcomingEvents = (props) => {
 
