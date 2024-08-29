@@ -33,8 +33,8 @@ const editions = () => {
                                     <div className={`magazines shadow-lg shadow-slate-800 ${window.innerWidth>500 ? "px-4" : "px-3"} py-3 my-4 rounded-lg`}>
                                         <div className="title text-3xl font-serif my-8 md:pl-16 text-slate-800 font-[600]">{edition.sem}</div>
                                         <div className=' flex md:flex-row flex-col justify-center items-center gap-5'>
-                                            <div className="image md:w-4/12 w-full md:h-4/6 ">
-                                                <img src={edition.bg_url} className="w-full h-4/6 object-cover"/>
+                                            <div className="image md:w-2/12 sm:w-4/12 w-6/12 md:h-4/6 ">
+                                                <img src={edition.bg_url} className="w-full  object-cover"/>
                                                 <div className="releaseDate text-sm text-gray-500 pb-2" style={{ borderBottom: "1px solid grey" }}>{edition.month}</div>
                                             </div>
                                             <div className=' md:w-7/12 w-full'>
