@@ -1,4 +1,4 @@
-import React,{useState} from "react";
+import React, { useState } from "react";
 import Navbar from "./navbar";
 import Footer from "./Footer";
 import waveImg from "/wave.png";
@@ -14,7 +14,7 @@ const Teams = () => {
       </div>
       <div>
         <div
-          className={`introduction relative  pb-8 ${window.innerWidth >=768 ? "px-10 pt-24" : "px-3 pt-24 " } flex flex-col justify-center overflow-hidden`}
+          className={`introduction relative  pb-8 ${window.innerWidth >= 768 ? "px-10 pt-24" : "px-3 pt-24 "} flex flex-col justify-center overflow-hidden`}
           style={{
             // height: `${window.innerHeight * 0.7}px`,
             backgroundImage:
@@ -48,15 +48,14 @@ const Teams = () => {
             </div>
             <div className="flex flex-wrap -m-4 justify-center">
 
+
               <p className="font-bold text-2xl">EXECUTIVE COMMITTEE</p><br></br><br></br>
-
-              <div className="flex flex-wrap -m-4 justify-center">
-
+              <div className="flex flex-wrap -m-4 mb-12 justify-center">
                 <div className="p-4 lg:w-1/3 md:w-1/2">
-                  <div className="h-full flex flex-col items-center text-center">
+                  <div className="h-full text-center">
                     <img
                       alt="team"
-                      className=" object-cover border-2 border-slate-900 flex-shrink-0 rounded-lg w-full h-50 object-center mb-4"
+                      className=" object-cover shadow-xl shadow-stone-400 flex-shrink-0 rounded-lg w-full h-4/6 object-center mb-4"
                       src="/ck_sir.jpg"
                     />
                     <div className="w-full">
@@ -76,12 +75,11 @@ const Teams = () => {
                     </div>
                   </div>
                 </div>
-
                 <div className="p-4 lg:w-1/3 md:w-1/2">
-                  <div className="h-full flex flex-col items-center text-center">
+                  <div className="h-full text-center">
                     <img
                       alt="team"
-                      className=" object-cover border-2 border-slate-900 flex-shrink-0 rounded-lg w-full h-50 object-center mb-4"
+                      className=" object-cover shadow-xl shadow-stone-400 flex-shrink-0 rounded-lg w-full h-4/6 object-center mb-4"
                       src="/dr.jpg"
                     />
                     <div className="w-full">
@@ -101,12 +99,11 @@ const Teams = () => {
                     </div>
                   </div>
                 </div>
-
                 <div className="p-4 lg:w-1/3 md:w-1/2">
-                  <div className="h-full flex flex-col items-center text-center">
+                  <div className="h-full text-center">
                     <img
                       alt="team"
-                      className=" object-cover border-2 border-slate-900 flex-shrink-0 rounded-lg w-full h-50 object-center mb-4"
+                      className=" object-cover shadow-xl shadow-stone-400 flex-shrink-0 rounded-lg w-full h-4/6 object-center mb-4"
                       src="/ps.jpg"
                     />
                     <div className="w-full">
@@ -126,18 +123,15 @@ const Teams = () => {
                     </div>
                   </div>
                 </div>
-
               </div>
 
               <p className="font-bold text-2xl">EDITORIAL BOARD</p><br></br><br></br>
-
-              <div className="flex flex-wrap -m-4 justify-center">
-
+              <div className="flex flex-wrap -m-4 mb-12 justify-center">
                 <div className="p-4 lg:w-1/3 md:w-1/2">
-                  <div className="h-full flex flex-col items-center text-center">
+                  <div className="h-full text-center">
                     <img
                       alt="team"
-                      className=" object-cover border-2 border-slate-900 flex-shrink-0 rounded-lg w-full h-50 object-center mb-4"
+                      className=" object-cover shadow-xl shadow-stone-400 flex-shrink-0 rounded-lg w-full h-4/6 object-center mb-4"
                       src="sv.jpg"
                     />
                     <div className="w-full">
@@ -159,10 +153,10 @@ const Teams = () => {
                 </div>
 
                 <div className="p-4 lg:w-1/3 md:w-1/2">
-                  <div className="h-full flex flex-col items-center text-center">
+                  <div className="h-full text-center">
                     <img
                       alt="team"
-                      className=" object-cover border-2 border-slate-900 flex-shrink-0 rounded-lg w-full h-50 object-center mb-4"
+                      className=" object-cover shadow-xl shadow-stone-400 flex-shrink-0 rounded-lg w-full h-4/6 object-center mb-4"
                       src="/sk.jpg"
                     />
                     <div className="w-full">
@@ -184,10 +178,10 @@ const Teams = () => {
                 </div>
 
                 <div className="p-4 lg:w-1/3 md:w-1/2">
-                  <div className="h-full flex flex-col items-center text-center">
+                  <div className="h-full text-center">
                     <img
                       alt="team"
-                      className=" object-cover border-2 border-slate-900 flex-shrink-0 rounded-lg w-full h-50 object-center mb-4"
+                      className=" object-cover shadow-xl shadow-stone-400 flex-shrink-0 rounded-lg w-full h-4/6 object-center mb-4"
                       src="/rk.jpg"
                     />
                     <div className="w-full">
@@ -207,8 +201,252 @@ const Teams = () => {
                     </div>
                   </div>
                 </div>
-
               </div>
+
+              <p className="font-bold text-2xl uppercase">developers</p><br></br><br></br>
+              <div className="flex flex-wrap -m-4 mb-12 justify-center">
+                <div className="p-4 lg:w-1/3 md:w-1/2">
+                  <div className="h-full text-center">
+                    <img
+                      alt="team"
+                      className=" object-cover shadow-xl shadow-stone-400 flex-shrink-0 rounded-lg w-full h-4/6 object-center mb-4"
+                      src="/shreyansh.jpeg"
+                    />
+                    <div className="w-full">
+                      <h2 className="title-font font-medium text-lg text-gray-900">
+                      Shreyansh Shandilya
+                      </h2>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="p-4 lg:w-1/3 md:w-1/2">
+                  <div className="h-full text-center">
+                    <img
+                      alt="team"
+                      className=" object-cover shadow-xl shadow-stone-400 flex-shrink-0 rounded-lg w-full h-4/6 object-center mb-4"
+                      src="/anirban.jpeg"
+                    />
+                    <div className="w-full">
+                      <h2 className="title-font font-medium text-lg text-gray-900">
+                        Anirban Das
+                      </h2>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="p-4 lg:w-1/3 md:w-1/2">
+                  <div className="h-full text-center">
+                    <img
+                      alt="team"
+                      className=" object-cover shadow-xl shadow-stone-400 flex-shrink-0 rounded-lg w-full h-4/6 object-center mb-4"
+                      src="/Shashwat.jpeg"
+                    />
+                    <div className="w-full">
+                      <h2 className="title-font font-medium text-lg text-gray-900">
+                      Shashwat Nautiyal
+                      </h2>
+                     
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <p className="font-bold text-2xl uppercase">content writing</p><br></br><br></br>
+              <div className="flex flex-wrap -m-4 justify-center">
+                <div className="p-4 lg:w-1/3 md:w-1/2">
+                  <div className="h-full text-center">
+                    <img
+                      alt="team"
+                      className=" object-cover shadow-xl shadow-stone-400 flex-shrink-0 rounded-lg w-full h-4/6 object-center mb-4"
+                      src="/sharthak.jpg"
+                    />
+                    <div className="w-full">
+                      <h2 className=" capitalize title-font font-medium text-lg text-gray-900">
+                        sarthak saumya
+                      </h2>
+                      <h3 className="text-gray-500 mb-3"> (Lead Editor)  </h3>
+
+                    </div>
+                  </div>
+                </div>
+                <div className="p-4 lg:w-1/3 md:w-1/2">
+                  <div className="h-full text-center">
+                    <img
+                      alt="team"
+                      className=" object-cover shadow-xl shadow-stone-400 flex-shrink-0 rounded-lg w-full h-4/6 object-center mb-4"
+                      src="/deepika.jpg"
+                    />
+                    <div className="w-full">
+                      <h2 className="capitalize title-font font-medium text-lg text-gray-900">
+                        deepika tanuvi
+                      </h2>
+
+
+                    </div>
+                  </div>
+                </div>
+                <div className="p-4 lg:w-1/3 md:w-1/2">
+                  <div className="h-full text-center">
+                    <img
+                      alt="team"
+                      className=" object-cover shadow-xl shadow-stone-400 flex-shrink-0 rounded-lg w-full h-4/6 object-center mb-4"
+                      src="/eshita.jpg"
+                    />
+                    <div className="w-full">
+                      <h2 className=" capitalize title-font font-medium text-lg text-gray-900">
+                        eshita paliwal
+                      </h2>
+
+
+                    </div>
+                  </div>
+                </div>
+                <div className="p-4 lg:w-1/3 md:w-1/2">
+                  <div className="h-full text-center">
+                    <img
+                      alt="team"
+                      className=" object-cover shadow-xl shadow-stone-400 flex-shrink-0 rounded-lg w-full h-4/6 object-center mb-4"
+                      src="/saksham.jpg"
+                    />
+                    <div className="w-full">
+                      <h2 className="capitalize title-font font-medium text-lg text-gray-900">
+                        saksham jha
+                      </h2>
+
+
+                    </div>
+                  </div>
+                </div>
+                <div className="p-4 lg:w-1/3 md:w-1/2">
+                  <div className="h-full text-center">
+                    <img
+                      alt="team"
+                      className=" object-cover shadow-xl shadow-stone-400 flex-shrink-0 rounded-lg w-full h-4/6 object-center mb-4"
+                      src="/Riya.jpg"
+                    />
+                    <div className="w-full">
+                      <h2 className="capitalize title-font font-medium text-lg text-gray-900">
+                        riya kumari
+                      </h2>
+
+
+                    </div>
+                  </div>
+                </div>
+                <div className="p-4 lg:w-1/3 md:w-1/2">
+                  <div className="h-full text-center">
+                    <img
+                      alt="team"
+                      className=" object-cover shadow-xl shadow-stone-400 flex-shrink-0 rounded-lg w-full h-4/6 object-center mb-4"
+                      src="/pragna.jpg"
+                    />
+                    <div className="w-full">
+                      <h2 className=" capitalize title-font font-medium text-lg text-gray-900">
+                        bitra sri pragna
+                      </h2>
+
+
+                    </div>
+                  </div>
+                </div>
+                <div className="p-4 lg:w-1/3 md:w-1/2">
+                  <div className="h-full text-center">
+                    <img
+                      alt="team"
+                      className=" object-cover shadow-xl shadow-stone-400 flex-shrink-0 rounded-lg w-full h-4/6 object-center mb-4"
+                      src="/Kshitiz.jpg"
+                    />
+                    <div className="w-full">
+                      <h2 className=" capitalize title-font font-medium text-lg text-gray-900">
+                        kshitiz pratap singh
+                      </h2>
+
+
+                    </div>
+                  </div>
+                </div>
+                <div className="p-4 lg:w-1/3 md:w-1/2">
+                  <div className="h-full text-center">
+                    <img
+                      alt="team"
+                      className=" object-cover shadow-xl shadow-stone-400 flex-shrink-0 rounded-lg w-full h-4/6 object-center mb-4"
+                      src="/Naga Chaitanya.jpg"
+                    />
+                    <div className="w-full">
+                      <h2 className=" capitalize title-font font-medium text-lg text-gray-900">
+                        nanneboina naga chaitanya
+                      </h2>
+
+
+                    </div>
+                  </div>
+                </div>
+                <div className="p-4 lg:w-1/3 md:w-1/2">
+                  <div className="h-full text-center">
+                    <img
+                      alt="team"
+                      className=" object-cover shadow-xl shadow-stone-400 flex-shrink-0 rounded-lg w-full h-4/6 object-center mb-4"
+                      src="/shyam.jpg"
+                    />
+                    <div className="w-full">
+                      <h2 className=" capitalize title-font font-medium text-lg text-gray-900">
+                        shyam rajguru
+                      </h2>
+
+
+                    </div>
+                  </div>
+                </div>
+                <div className="p-4 lg:w-1/3 md:w-1/2">
+                  <div className="h-full text-center">
+                    <img
+                      alt="team"
+                      className=" object-cover shadow-xl shadow-stone-400 flex-shrink-0 rounded-lg w-full h-4/6 object-center mb-4"
+                      src="/shacin.jpg"
+                    />
+                    <div className="w-full">
+                      <h2 className=" capitalize title-font font-medium text-lg text-gray-900">
+                        sachin rajguru
+                      </h2>
+
+
+                    </div>
+                  </div>
+                </div>
+                <div className="p-4 lg:w-1/3 md:w-1/2">
+                  <div className="h-full text-center">
+                    <img
+                      alt="team"
+                      className=" object-cover shadow-xl shadow-stone-400 flex-shrink-0 rounded-lg w-full h-4/6 object-center mb-4"
+                      src="/Rohan.jpg"
+                    />
+                    <div className="w-full">
+                      <h2 className=" capitalize title-font font-medium text-lg text-gray-900">
+                        rohan garg
+                      </h2>
+
+                    </div>
+                  </div>
+                </div>
+                <div className="p-4 lg:w-1/3 md:w-1/2">
+                  <div className="h-full text-center">
+                    <img
+                      alt="team"
+                      className=" object-cover shadow-xl shadow-stone-400 flex-shrink-0 rounded-lg w-full h-4/6 object-center mb-4"
+                      src="/sumit.jpg"
+                    />
+                    <div className="w-full">
+                      <h2 className=" capitalize title-font font-medium text-lg text-gray-900">
+                        sumit kumar
+                      </h2>
+
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+
 
             </div>
           </div>

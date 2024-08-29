@@ -21,7 +21,7 @@ const editions = () => {
                     <div className="content md:w-10/12 w-full  py-4">
                         Welcome to the archives of the CSE Society, where we proudly present the digital versions of our previous editions of <i>Buffered Reader</i>. These past publications reflect the journey of our society, showcasing the creativity, insights, and technological explorations of our members over the years. Each edition captures the evolving landscape of computer science, featuring articles, project highlights, interviews, and more. Explore these archives to witness the rich history of our society, and gain inspiration from the achievements and ideas that have shaped our community.
                     </div>
-                    <div className="wave absolute w-full h-2/6  -bottom-4 left-0" style={{ backgroundImage: `url(${waveImg})`, backgroundSize: '150% 100%' }}>
+                    <div className="wave absolute w-full h-2/6  -bottom-5 left-0" style={{ backgroundImage: `url(${waveImg})`, backgroundSize: '160% 100%' }}>
                     </div>
                 </div>
                 <div className="alleditons">

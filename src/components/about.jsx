@@ -11,9 +11,8 @@ const About = () => {
       </div>
       <div>
         <div
-          className="introduction relative px-10 flex flex-col justify-center "
+          className={`introduction relative  pb-20 ${window.innerWidth >=768 ? "px-10 pt-24" : "px-3 pt-24 " } flex flex-col justify-center overflow-hidden`}
           style={{
-            height: `${window.innerHeight * 0.7}px`,
             backgroundImage:
               "linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(228,218,137,1) 28%, rgba(0,212,255,1) 100%)",
           }}
@@ -25,16 +24,16 @@ const About = () => {
             The aim of the CSE Society is to create a dynamic and supportive environment that nurtures the technical and creative abilities of students in the field of computer science and engineering. We aim to bridge the gap between theoretical knowledge and practical application by organizing a variety of events, workshops, and collaborative projects. Our goal is to cultivate innovation, foster teamwork, and equip members with the skills and experiences needed to excel in their academic and professional careers, while also promoting a sense of community and lifelong learning among our members.
           </div>
           <div
-            className="wave absolute w-full h-1/6  bottom-0 left-0"
+            className="wave absolute w-full h-1/6  -bottom-5 left-0"
             style={{
               backgroundImage: `url(${waveImg})`,
-              backgroundSize: "100% 100%",
+              backgroundSize: "120% 100%",
             }}
           ></div>
         </div>
         <div className="alleditons  ">
           <section className="text-gray-600 body-font">
-            <div className="container px-5 pt-20 pb-16 mx-auto">
+            <div className="container px-4 pt-20 pb-16 mx-auto">
               <div className="xl:w-3/4 lg:w-3/4 w-full mx-auto text-center">
                 <img
                   alt="testimonial"
@@ -83,7 +82,7 @@ const About = () => {
                   <div>
                     <img
                       alt="testimonial"
-                      className=" mx-3 w-40 h-40 mb-8 object-center rounded-full inline-block border-2 border-gray-200 shadow-lg bg-gray-100"
+                      className=" mx-3 w-40 h-40 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 shadow-lg bg-gray-100"
                       src="/sb_sir.jpg"
                     />
                     <h2 className="text-gray-900 pb-1 font-medium title-font tracking-wider text-sm">
@@ -93,7 +92,7 @@ const About = () => {
                   <div>
                     <img
                       alt="testimonial"
-                      className=" mx-3 w-40 h-40 mb-8 object-center rounded-full inline-block border-2 border-gray-200 shadow-lg bg-gray-100"
+                      className=" mx-3 w-40 h-40 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 shadow-lg bg-gray-100"
                       src="/pb_coFIC.jpg"
                     />
                     <h2 className="text-gray-900 pb-1 font-medium title-font tracking-wider text-sm">
