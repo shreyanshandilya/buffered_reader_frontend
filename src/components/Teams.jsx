@@ -201,7 +201,7 @@ const Teams = () => {
                 </div>
               </div>
 
-              <p className="font-bold text-2xl  text-black bg-gradient-to-r from-[ #00c9ff] to-[#92fe9d]rounded-lg px-5 py-3 font-serif">Buffered Developers</p><br></br><br></br>
+              <p className="font-bold text-2xl  text-black bg-gradient-to-r from-[ #00c9ff] to-[#92fe9d]rounded-lg px-5 py-3 font-serif">BufferedDevelopers</p><br></br><br></br>
               <div className="flex flex-wrap -m-4 mb-12 justify-center pt-3">
                 <div className="p-4 lg:w-1/3 md:w-1/2">
                   <div className="h-full text-center">
@@ -250,7 +250,7 @@ const Teams = () => {
                 </div>
               </div>
 
-              <p className="font-bold text-2xl  text-black  font-serif bg-gradient-to-r from-[ #00c9ff] to-[#92fe9d] rounded-lg px-5 py-3">Buffered Writers</p><br></br><br></br>
+              <p className="font-bold text-2xl  text-black  font-serif bg-gradient-to-r from-[ #00c9ff] to-[#92fe9d] rounded-lg px-5 py-3">BufferedWriters</p><br></br><br></br>
               <div className="flex flex-wrap -m-4 justify-center pt-3">
                 <div className="p-4 lg:w-1/3 md:w-1/2">
                   <div className="h-full text-center">
@@ -445,7 +445,7 @@ const Teams = () => {
                 </div>
               </div>
 
-              <p className="font-bold text-2xl text-black font-serif bg-gradient-to-r from-[ #00c9ff] to-[#92fe9d] rounded-lg px-5 py-3">Buffered Designers</p><br></br><br></br>
+              <p className="font-bold text-2xl text-black font-serif bg-gradient-to-r from-[ #00c9ff] to-[#92fe9d] rounded-lg px-5 py-3">BufferedDesigners</p><br></br><br></br>
               <div className="flex flex-wrap -m-4 mb-12 justify-center pt-3">
                 <div className="p-4 lg:w-1/3 md:w-1/2">
                   <div className="h-full text-center">
