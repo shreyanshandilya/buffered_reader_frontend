@@ -1,5 +1,5 @@
 import React, { useEffect, useRef, useState } from 'react'
-// import Achievements from './landing page/achievements'
+import UpcomingEvents from './landing page/upcomingEvents'
 // import Hero from './landing page/Hero'
 import Purpose from './landing page/purpose'
 import Footer from './Footer'
@@ -38,8 +38,7 @@ const home = () => {
       <Hero homeRef= {homeRef}/>
       <Quote quoteRef={quoteRef} isQuoteVisible={isQuoteVisible}/>
       <Purpose purposeRef={purposeRef} isPurposeVisible={isPurposeVisible} />
-      
-      {/* <Achievements achievementRef={achievementRef} isAchieveVisible={isAchieveVisible} /> */}
+      <UpcomingEvents eventsRef={eventsRef} isEventVisible={isEventVisible} />
       <Footer/>
     </>
   )
