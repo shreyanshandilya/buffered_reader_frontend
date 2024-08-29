@@ -10,9 +10,11 @@ const home = () => {
   const purposeRef = useRef()
   const quoteRef = useRef()
   const homeRef = useRef()
+  const eventsRef = useRef()
 
   const [isPurposeVisible, setisPurposeVisible] = useState(true)
   const [isQuoteVisible, setisQuoteVisible] = useState(true)
+  const [isEventVisible, setisEventVisible] = useState(true)
 
   const scrollAnimation = () => {
     purposeRef.current ? (() => {

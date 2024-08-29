@@ -13,8 +13,8 @@ const editions = () => {
             </div>
             <div id="editions">
                 <div 
-          className={`introduction relative  pb-20 ${window.innerWidth >=768 ? "px-10 pt-24" : "px-3 pt-24 " } flex flex-col justify-center overflow-hidden`}
-          style={{  backgroundImage: "linear-gradient(to right ,#508c84 , #47e88a" }}
+          className={`introduction relative  pb-24 ${window.innerWidth >=768 ? "px-10 pt-24" : "px-3 pt-24 " } flex flex-col justify-center overflow-hidden`}
+          style={{  backgroundImage: "linear-gradient(to right, #00c9ff, #92fe9d)" }}
                 >
 
                     <div className="heading capitalize text-4xl font-sans font-[700] text-teal-950  ">BUFFERED READER</div>
@@ -26,8 +26,8 @@ const editions = () => {
                 </div>
                 <div className="alleditons">
                     <div className={`w-full ${window.innerWidth>500 ? "px-6" : "px-2"}  py-6`}>
-                        {data.map((edition) => {
-                            return <div className=' border-b-2 '>
+                        {data.map((edition , index) => {
+                            return <div key={index} className=' border-b-2 '>
                                 <div className="year text-xl font-[600] px-4 mt-4">{edition.year} </div>
                                 <div className={edition.sem === "Winter-Edition" ? "bg-gradient-to-r from-[#62eddb] via-[#ffdd93] to-[#7fe9ff]" : "bg-gradient-to-r from-[#f9ff91] via-[#ffdd93] to-[#7fe9ff]"}>
                                     <div className={`magazines shadow-lg shadow-slate-800 ${window.innerWidth>500 ? "px-4" : "px-3"} py-3 my-4 rounded-lg`}>
@@ -45,7 +45,7 @@ const editions = () => {
                                                     {edition.des}
                                                 </div>
                                                 <a href={edition.link} className="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0" target="blank">Read More
-                                                    <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2" fill="none" strokeLinecap="round" strokeLinejoin="round">
+                                                    <svg className="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2" fill="none" strokeLinecap="round" strokeLinejoin="round">
                                                         <path d="M5 12h14"></path>
                                                         <path d="M12 5l7 7-7 7"></path>
                                                     </svg>
