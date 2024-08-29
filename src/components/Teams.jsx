@@ -214,6 +214,7 @@ const Teams = () => {
                       <h2 className="title-font font-medium text-lg text-gray-900">
                       Shreyansh Shandilya
                       </h2>
+                      <h3 className="text-gray-500 mb-3"> (Lead Editor)  </h3>
                     </div>
                   </div>
                 </div>
