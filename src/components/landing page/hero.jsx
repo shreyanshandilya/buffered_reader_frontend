@@ -43,7 +43,7 @@ const Hero = (props) => {
                   <Cursor className='text-2xl' cursorBlinking={false} cursorStyle='..' />
                 </span>
               </div>
-              <a href="https://drive.google.com/file/d/19Js8ByMzdl9scU3ACAEHHcEIpRsi2BTE/view?usp=drive_link">
+              <a href="https://drive.google.com/file/d/1n0HDZpPjfn45ShxGuwaXtBs8GIoLgZ3n/view?usp=drive_link" target="blank">
                 <div className='mt-9 mb-0'>
                   <button type="button" className=" text-gray-900 bg-gradient-to-r from-red-200 via-red-300 to-yellow-200 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-red-100 dark:focus:ring-red-400 font-medium rounded-lg text-sm px-3 py-2.5 text-center ">
                     Latest Edition
