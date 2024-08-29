@@ -21,7 +21,7 @@ const About = () => {
             Our Aim ?
           </div>
           <div className="content md:w-10/12 w-full pr-7 py-4">
-            The aim of the CSE Society is to create a dynamic and supportive environment that nurtures the technical and creative abilities of students in the field of computer science and engineering. We aim to bridge the gap between theoretical knowledge and practical application by organizing a variety of events, workshops, and collaborative projects. Our goal is to cultivate innovation, foster teamwork, and equip members with the skills and experiences needed to excel in their academic and professional careers, while also promoting a sense of community and lifelong learning among our members.
+            Buffered Reader transcends the realm of a mere magazine, serving as a catalyst for intellectual curiosity and creativity within the CSE Society. We bridge the gap between theory and real-world application with insights into cutting-edge technological advancements. Our meticulously curated content ignites innovation, cultivates collaboration, and empowers readers with indispensable knowledge for both academic and professional triumphs. Ultimately, Buffered Reader cultivates a strong sense of community and champions lifelong learning in the ever-evolving world of Computer Science and Engineering.
           </div>
           <div
             className="wave absolute w-full h-2/6  -bottom-5 left-0"
