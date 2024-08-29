@@ -47,7 +47,7 @@ const Teams = () => {
             <div className="flex flex-wrap -m-4 justify-center">
 
 
-              <p className="font-bold text-2xl text-black bg-yellow-200 rounded-lg px-5 py-3 font-serif">Executive Committee</p><br></br><br></br>
+              <p className="font-bold text-2xl text-black bg-gradient-to-r from-[ #00c9ff] to-[#92fe9d] rounded-lg px-5 py-3 font-serif">Executive Committee</p><br></br><br></br>
               <div className="flex flex-wrap -m-4 mb-12 justify-center pt-3">
                 <div className="p-4 lg:w-1/3 md:w-1/2">
                   <div className="h-full text-center">
@@ -123,7 +123,7 @@ const Teams = () => {
                 </div>
               </div>
 
-              <p className="font-bold text-2xl text-black bg-yellow-200 rounded-lg px-5 py-3 font-serif">Buffered Editors</p><br></br><br></br>
+              <p className="font-bold text-2xl text-black bg-gradient-to-r from-[ #00c9ff] to-[#92fe9d] rounded-lg px-5 py-3 font-serif">Buffered Editors</p><br></br><br></br>
               <div className="flex flex-wrap -m-4 mb-12 justify-center pt-3">
                 <div className="p-4 lg:w-1/3 md:w-1/2">
                   <div className="h-full text-center">
@@ -201,7 +201,7 @@ const Teams = () => {
                 </div>
               </div>
 
-              <p className="font-bold text-2xl  text-black bg-yellow-200 rounded-lg px-5 py-3 font-serif">Buffered Developers</p><br></br><br></br>
+              <p className="font-bold text-2xl  text-black bg-gradient-to-r from-[ #00c9ff] to-[#92fe9d]rounded-lg px-5 py-3 font-serif">Buffered Developers</p><br></br><br></br>
               <div className="flex flex-wrap -m-4 mb-12 justify-center pt-3">
                 <div className="p-4 lg:w-1/3 md:w-1/2">
                   <div className="h-full text-center">
@@ -250,7 +250,7 @@ const Teams = () => {
                 </div>
               </div>
 
-              <p className="font-bold text-2xl  text-black  font-serif bg-yellow-200 rounded-lg px-5 py-3">Buffered Writers</p><br></br><br></br>
+              <p className="font-bold text-2xl  text-black  font-serif bg-gradient-to-r from-[ #00c9ff] to-[#92fe9d] rounded-lg px-5 py-3">Buffered Writers</p><br></br><br></br>
               <div className="flex flex-wrap -m-4 justify-center pt-3">
                 <div className="p-4 lg:w-1/3 md:w-1/2">
                   <div className="h-full text-center">
@@ -261,7 +261,7 @@ const Teams = () => {
                     />
                     <div className="w-full">
                       <h2 className=" capitalize title-font font-medium text-lg text-gray-900">
-                        sarthak saumya
+                        Sarthak Saumya
                       </h2>
                       <h3 className="text-gray-500 mb-3"> (Lead Editor)  </h3>
 
@@ -389,7 +389,7 @@ const Teams = () => {
                     />
                     <div className="w-full">
                       <h2 className=" capitalize title-font font-medium text-lg text-gray-900">
-                        shyam rajguru
+                        Shyam Sunder
                       </h2>
 
 
@@ -445,7 +445,7 @@ const Teams = () => {
                 </div>
               </div>
 
-              <p className="font-bold text-2xl text-black font-serif bg-yellow-200 rounded-lg px-5 py-3">Buffered Designers</p><br></br><br></br>
+              <p className="font-bold text-2xl text-black font-serif bg-gradient-to-r from-[ #00c9ff] to-[#92fe9d] rounded-lg px-5 py-3">Buffered Designers</p><br></br><br></br>
               <div className="flex flex-wrap -m-4 mb-12 justify-center pt-3">
                 <div className="p-4 lg:w-1/3 md:w-1/2">
                   <div className="h-full text-center">
@@ -472,7 +472,7 @@ const Teams = () => {
                     />
                     <div className="w-full">
                       <h2 className="title-font font-medium text-lg text-gray-900">
-                      Supreeth Reddy
+                      Ketham Reddy Supreeth 
                       </h2>
                     </div>
                   </div>
@@ -502,7 +502,7 @@ const Teams = () => {
                     />
                     <div className="w-full">
                       <h2 className="title-font font-medium text-lg text-gray-900">
-                       Divyanshu
+                       Divyanshu Singh
                       </h2>
                     </div>
                   </div>
@@ -547,7 +547,7 @@ const Teams = () => {
                     />
                     <div className="w-full">
                       <h2 className="title-font font-medium text-lg text-gray-900">
-                       Jatin
+                       Jatin Kumar
                       </h2>
                     </div>
                   </div>
@@ -562,7 +562,7 @@ const Teams = () => {
                     />
                     <div className="w-full">
                       <h2 className="title-font font-medium text-lg text-gray-900">
-                       Monil
+                       Monil Chandgdhiya
                       </h2>
                     </div>
                   </div>
@@ -578,7 +578,7 @@ const Teams = () => {
                     />
                     <div className="w-full">
                       <h2 className="title-font font-medium text-lg text-gray-900">
-                       Robin
+                       Robin Kumar
                       </h2>
                     </div>
                   </div>
