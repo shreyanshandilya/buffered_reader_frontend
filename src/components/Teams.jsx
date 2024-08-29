@@ -47,8 +47,8 @@ const Teams = () => {
             <div className="flex flex-wrap -m-4 justify-center">
 
 
-              <p className="font-bold text-2xl">EXECUTIVE COMMITTEE</p><br></br><br></br>
-              <div className="flex flex-wrap -m-4 mb-12 justify-center">
+              <p className="font-bold text-2xl text-black bg-yellow-200 rounded-lg px-5 py-3 font-serif">Executive Committee</p><br></br><br></br>
+              <div className="flex flex-wrap -m-4 mb-12 justify-center pt-3">
                 <div className="p-4 lg:w-1/3 md:w-1/2">
                   <div className="h-full text-center">
                     <img
@@ -123,8 +123,8 @@ const Teams = () => {
                 </div>
               </div>
 
-              <p className="font-bold text-2xl">EDITORIAL BOARD</p><br></br><br></br>
-              <div className="flex flex-wrap -m-4 mb-12 justify-center">
+              <p className="font-bold text-2xl text-black bg-yellow-200 rounded-lg px-5 py-3 font-serif">Buffered Editors</p><br></br><br></br>
+              <div className="flex flex-wrap -m-4 mb-12 justify-center pt-3">
                 <div className="p-4 lg:w-1/3 md:w-1/2">
                   <div className="h-full text-center">
                     <img
@@ -201,8 +201,8 @@ const Teams = () => {
                 </div>
               </div>
 
-              <p className="font-bold text-2xl uppercase">developers</p><br></br><br></br>
-              <div className="flex flex-wrap -m-4 mb-12 justify-center">
+              <p className="font-bold text-2xl  text-black bg-yellow-200 rounded-lg px-5 py-3 font-serif">Buffered Developers</p><br></br><br></br>
+              <div className="flex flex-wrap -m-4 mb-12 justify-center pt-3">
                 <div className="p-4 lg:w-1/3 md:w-1/2">
                   <div className="h-full text-center">
                     <img
@@ -239,20 +239,19 @@ const Teams = () => {
                     <img
                       alt="team"
                       className=" object-cover shadow-xl shadow-stone-400 flex-shrink-0 rounded-lg w-full h-4/6 object-center mb-4"
-                      src="/Shashwat.jpeg"
+                      src="/Shashwat.jpg"
                     />
                     <div className="w-full">
                       <h2 className="title-font font-medium text-lg text-gray-900">
                       Shashwat Nautiyal
                       </h2>
-                     
                     </div>
                   </div>
                 </div>
               </div>
 
-              <p className="font-bold text-2xl uppercase">content writing</p><br></br><br></br>
-              <div className="flex flex-wrap -m-4 justify-center">
+              <p className="font-bold text-2xl  text-black  font-serif bg-yellow-200 rounded-lg px-5 py-3">Buffered Writers</p><br></br><br></br>
+              <div className="flex flex-wrap -m-4 justify-center pt-3">
                 <div className="p-4 lg:w-1/3 md:w-1/2">
                   <div className="h-full text-center">
                     <img
@@ -446,7 +445,148 @@ const Teams = () => {
                 </div>
               </div>
 
+              <p className="font-bold text-2xl text-black font-serif bg-yellow-200 rounded-lg px-5 py-3">Buffered Designers</p><br></br><br></br>
+              <div className="flex flex-wrap -m-4 mb-12 justify-center pt-3">
+                <div className="p-4 lg:w-1/3 md:w-1/2">
+                  <div className="h-full text-center">
+                    <img
+                      alt="team"
+                      className=" object-cover shadow-xl shadow-stone-400 flex-shrink-0 rounded-lg w-full h-4/6 object-center mb-4"
+                      src="/AbhishekDas.jpg"
+                    />
+                    <div className="w-full">
+                      <h2 className="title-font font-medium text-lg text-gray-900">
+                      Abhishek Prasad Das
+                      </h2>
+                      <h3 className="text-gray-500 mb-3"> (Lead Designer)  </h3>
+                    </div>
+                  </div>
+                </div>
 
+                <div className="p-4 lg:w-1/3 md:w-1/2">
+                  <div className="h-full text-center">
+                    <img
+                      alt="team"
+                      className=" object-cover shadow-xl shadow-stone-400 flex-shrink-0 rounded-lg w-full h-4/6 object-center mb-4"
+                      src="/Supreeth.jpg"
+                    />
+                    <div className="w-full">
+                      <h2 className="title-font font-medium text-lg text-gray-900">
+                      Supreeth Reddy
+                      </h2>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="p-4 lg:w-1/3 md:w-1/2">
+                  <div className="h-full text-center">
+                    <img
+                      alt="team"
+                      className=" object-cover shadow-xl shadow-stone-400 flex-shrink-0 rounded-lg w-full h-4/6 object-center mb-4"
+                      src="/Daksh.jpg"
+                    />
+                    <div className="w-full">
+                      <h2 className="title-font font-medium text-lg text-gray-900">
+                        Daksh Mor
+                      </h2>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="p-4 lg:w-1/3 md:w-1/2">
+                  <div className="h-full text-center">
+                    <img
+                      alt="team"
+                      className=" object-cover shadow-xl shadow-stone-400 flex-shrink-0 rounded-lg w-full h-4/6 object-center mb-4"
+                      src="/Divyanshu.jpg"
+                    />
+                    <div className="w-full">
+                      <h2 className="title-font font-medium text-lg text-gray-900">
+                       Divyanshu
+                      </h2>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="p-4 lg:w-1/3 md:w-1/2">
+                  <div className="h-full text-center">
+                    <img
+                      alt="team"
+                      className=" object-cover shadow-xl shadow-stone-400 flex-shrink-0 rounded-lg w-full h-4/6 object-center mb-4"
+                      src="/Kasam.jpg"
+                    />
+                    <div className="w-full">
+                      <h2 className="title-font font-medium text-lg text-gray-900">
+                       Kasam Pramodha
+                      </h2>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="p-4 lg:w-1/3 md:w-1/2">
+                  <div className="h-full text-center">
+                    <img
+                      alt="team"
+                      className=" object-cover shadow-xl shadow-stone-400 flex-shrink-0 rounded-lg w-full h-4/6 object-center mb-4"
+                      src="/Samarth.jpg"
+                    />
+                    <div className="w-full">
+                      <h2 className="title-font font-medium text-lg text-gray-900">
+                       Samarth Jindal
+                      </h2>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="p-4 lg:w-1/3 md:w-1/2">
+                  <div className="h-full text-center">
+                    <img
+                      alt="team"
+                      className=" object-cover shadow-xl shadow-stone-400 flex-shrink-0 rounded-lg w-full h-4/6 object-center mb-4"
+                      src="/Jatin.jpg"
+                    />
+                    <div className="w-full">
+                      <h2 className="title-font font-medium text-lg text-gray-900">
+                       Jatin
+                      </h2>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="p-4 lg:w-1/3 md:w-1/2">
+                  <div className="h-full text-center">
+                    <img
+                      alt="team"
+                      className=" object-cover shadow-xl shadow-stone-400 flex-shrink-0 rounded-lg w-full h-4/6 object-center mb-4"
+                      src="/Monil.jpg"
+                    />
+                    <div className="w-full">
+                      <h2 className="title-font font-medium text-lg text-gray-900">
+                       Monil
+                      </h2>
+                    </div>
+                  </div>
+                </div>
+
+
+                <div className="p-4 lg:w-1/3 md:w-1/2">
+                  <div className="h-full text-center">
+                    <img
+                      alt="team"
+                      className=" object-cover shadow-xl shadow-stone-400 flex-shrink-0 rounded-lg w-full h-4/6 object-center mb-4"
+                      src="/Robin.jpg"
+                    />
+                    <div className="w-full">
+                      <h2 className="title-font font-medium text-lg text-gray-900">
+                       Robin
+                      </h2>
+                    </div>
+                  </div>
+                </div>
+
+                
+
+              </div>
             </div>
           </div>
         </section>
