@@ -20,9 +20,9 @@ const Hero = (props) => {
     <img className=' transition-all duration-1000 ease-in w-full h-full object-cover' src="/pattern (4).svg" />
         <div className="absolute inset-0 flex items-center justify-center">
             <div className="text-center text-white px-6 md:px-12">
-                    <div className='md:pt-14 md:pb-5 '>
+                    <div className='md:pt-16 md:pb-5 '>
                       <a href='https://www.iitism.ac.in/'>  
-                      <img className=' h-40 w-40 object-cover inline-block object-center' src="/logo2.png" alt="" /> 
+                      <img className=' h-40 w-40 object-cover inline-block object-center' src="/logo2.png" alt="institute_logo" /> 
                       </a>   
                     </div>
                     <h2 className="text-3xl text-gray-800 md:text-3xl font-bold mb=3 pt-2">COMPUTER SCIENCE & ENGINEERING SOCIETY</h2>

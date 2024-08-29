@@ -1,4 +1,4 @@
-#achievements{
+/* #achievements{
     padding: 2rem;
 }
 #achievements .someAchieve{
@@ -9,7 +9,7 @@
 }
 #achievements .someAchieve .mainContent .heading{
     padding: 10px 20px;
-    /* text-transform: uppercase; */
+    /* text-transform: uppercase; 
 }
 #achievements .someAchieve .mainContent .achieves{
     display: flex;
@@ -38,12 +38,19 @@
     #achievements .someAchieve .mainContent .achieves .achieve{
         height: auto;
     }
-}
+} */
 
 #purpose .slide{
-    animation: slidePurpose 25s ease 25s infinite;
-    transition: ease-in-out;
-    animation-delay: 10s;
+    animation: slidePurpose 28s ease infinite;
+    animation-delay: 3s;
+   
+    
+    
+}
+#events .slide{
+    animation: slideEvents 28s ease infinite;
+    animation-delay: 3s;
+    
     
 }
 
@@ -63,7 +70,22 @@
     }
 }
 
-#hero .bgAnimation .bgSlide::before{
+@keyframes slideEvents{
+    0%{
+        transform: translateX(0);
+    }
+    33%{
+        transform: translateX(-25%);
+    }
+    66%{
+        transform: translateX(-50%);
+    }
+    100%{
+        transform: translateX(-75%);
+    }
+}
+
+/* #hero .bgAnimation .bgSlide::before{
     content:"" ;
     position: absolute;
     top: 0;
@@ -71,4 +93,4 @@
     width: 100%;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.535);
-}
+} */

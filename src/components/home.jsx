@@ -1,5 +1,5 @@
 import React, { useEffect, useRef, useState } from 'react'
-// import Achievements from './landing page/achievements'
+import UpcomingEvents from './landing page/upcomingEvents'
 // import Hero from './landing page/Hero'
 import Purpose from './landing page/purpose'
 import Footer from './Footer'
@@ -8,13 +8,13 @@ import Quote from './landing page/Quote'
 
 const home = () => {
 
-  // const achievementRef = useRef()  
+  const eventsRef = useRef()  
   // const navbar = useRef()
   const purposeRef = useRef()
   const quoteRef = useRef()
   const homeRef = useRef()
 
-  // const [isAchieveVisible, setisAchieveVisible] = useState(false)
+  const [isEventVisible, setisEventVisible] = useState(false)
   const [isPurposeVisible, setisPurposeVisible] = useState(false)
 
   const scrollAnimation = () => {
@@ -22,9 +22,9 @@ const home = () => {
       const scrollY = window.scrollY
       const h1 = homeRef.current.clientHeight
       const h2 = quoteRef.current.clientHeight
-      // const h3 = achievementRef.current.clientHeight
+      const h3 = purposeRef.current.clientHeight
       scrollY >= h1 + h2 * 0.4 ? setisPurposeVisible(true) : ''
-      // scrollY >= h1 + h2 * 0.3 ? setisAchieveVisible(true) : ''
+      scrollY >= h1 + h2 + h3* 0.3 ? setisEventVisible(true) : ''
     })() : ""
   }
 
@@ -42,8 +42,7 @@ const home = () => {
       <Hero homeRef= {homeRef}/>
       <Quote quoteRef={quoteRef}/>
       <Purpose purposeRef={purposeRef} isPurposeVisible={isPurposeVisible} />
-      
-      {/* <Achievements achievementRef={achievementRef} isAchieveVisible={isAchieveVisible} /> */}
+      <UpcomingEvents eventsRef={eventsRef} isEventVisible={isEventVisible} />
       <Footer/>
     </>
   )
