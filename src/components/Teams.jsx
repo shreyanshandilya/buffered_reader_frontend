@@ -25,7 +25,8 @@ const Teams = () => {
           </div>
           <div className="content md:w-10/12 w-full  py-4">
             Buffered Reader is the biannual magazine of the CSE Society, serving as a vibrant reflection of our thriving community. Each meticulously crafted issue highlights the energy and innovation seen in our workshops, hackathons, and guest lectures. Beyond campus events, Buffered Reader also delves into the latest global software advancements from the past six months, offering a blend of academic and industry insights. This publication aims to inform, inspire, and prepare our readers for the dynamic challenges of the ever-evolving tech landscape.
-          <div
+          </div>
+            <div
             className="wave absolute w-full h-2/6  -bottom-3 left-0"
             style={{
               backgroundImage: `url(${waveImg})`,
