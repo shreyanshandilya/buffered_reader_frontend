@@ -99,7 +99,7 @@ const Teams = () => {
                   <div className="h-full text-center flex flex-col items-center">
                       <img
                       alt="team"
-                      className=" object-cover shadow-xl     shadow-stone-400 mb-4  h-60  h-60    rounded-lg w-10/12   object-center "
+                      className=" object-cover shadow-xl     shadow-stone-400 mb-4  h-60   rounded-lg w-10/12   object-center "
                       src="/pb_coFIC.jpg"
                     />
                     <div className="py-2 w-full">
