@@ -1,6 +1,6 @@
 import React from 'react'
 import Navbar from '../navbar'
-import bgImg from "/pattern.svg"
+import bgImg from "/backgrounds/pattern.svg"
 
 import { useTypewriter, Cursor } from 'react-simple-typewriter';
 
@@ -23,7 +23,7 @@ const Hero = (props) => {
           <div className="text-center text-white px-6 md:px-12">
             <div className='md:pt-14 md:pb-5 '>
               <a href='https://www.iitism.ac.in/'>
-                <img className=' h-40 w-40 object-cover inline-block object-center' src="/logo2.png" alt="" />
+                <img className=' h-40 w-40 object-cover inline-block object-center' src="/backgrounds/logo2.png" alt="" />
               </a>
             </div>
             <h2 className="text-3xl text-gray-800 md:text-3xl font-bold mb=3 pt-2">COMPUTER SCIENCE & ENGINEERING SOCIETY</h2>

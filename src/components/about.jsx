@@ -1,7 +1,7 @@
 import React from "react";
 import Footer from "./Footer";
 import Navbar from "./navbar";
-import waveImg from "/wave.png";
+import waveImg from "/backgrounds/wave.png";
 
 const About = () => {
   return (
@@ -38,7 +38,7 @@ const About = () => {
                 <img
                   alt="testimonial"
                   className="w-40 h-40 mb-8 object-cover rounded-full inline-block border-2 border-gray-200 shadow-lg bg-gray-100"
-                  src="/ck_sir.jpg"
+                  src="/professor/ck_sir.jpg"
                 />
                 <h2 className="text-gray-900 pb-1 font-medium title-font tracking-wider text-sm">
                   Prof. Chiranjeev Kumar
@@ -83,7 +83,7 @@ const About = () => {
                     <img
                       alt="testimonial"
                       className=" mx-3 w-40 h-40 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 shadow-lg bg-gray-100"
-                      src="/sb_sir.jpg"
+                      src="/professor/sb_sir.jpg"
                     />
                     <h2 className="text-gray-900 pb-1 font-medium title-font tracking-wider text-sm">
                       Prof. Soumen Bag
@@ -93,7 +93,7 @@ const About = () => {
                     <img
                       alt="testimonial"
                       className=" mx-3 w-40 h-40 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 shadow-lg bg-gray-100"
-                      src="/pb_coFIC.jpg"
+                      src="/professor/pb_coFIC.jpg"
                     />
                     <h2 className="text-gray-900 pb-1 font-medium title-font tracking-wider text-sm">
                     Dr. Pranav Bisht

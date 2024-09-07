@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Navbar from "./navbar";
 import Footer from "./Footer";
-import waveImg from "/wave.png";
+import waveImg from "/backgrounds/wave.png";
 
 const Teams = () => {
 
@@ -54,7 +54,7 @@ const Teams = () => {
                       <img
                       alt="team"
                       className=" object-cover shadow-xl   shadow-stone-400 mb-4  h-60  rounded-lg w-10/12   object-center "
-                      src="/ck_sir.jpg"
+                      src="/professor/ck_sir.jpg"
                     />
                     <div className="py-2 w-full">
                       <h2 className="title-font font-medium text-lg text-gray-900">
@@ -77,7 +77,7 @@ const Teams = () => {
                       <img
                       alt="team"
                       className=" object-cover shadow-xl   shadow-stone-400 mb-4  h-60  rounded-lg w-10/12   object-center "
-                      src="/sb_sir.jpg"
+                      src="/professor/sb_sir.jpg"
                     />
                     <div className="py-2 w-full">
                       <h2 className="title-font font-medium text-lg text-gray-900">
@@ -100,7 +100,7 @@ const Teams = () => {
                       <img
                       alt="team"
                       className=" object-cover shadow-xl     shadow-stone-400 mb-4  h-60   rounded-lg w-10/12   object-center "
-                      src="/pb_coFIC.jpg"
+                      src="/professor/pb_coFIC.jpg"
                     />
                     <div className="py-2 w-full">
                       <h2 className="title-font font-medium text-lg text-gray-900">
@@ -127,7 +127,7 @@ const Teams = () => {
                       <img
                       alt="team"
                       className=" object-cover shadow-xl     shadow-stone-400 mb-4  h-60 rounded-lg w-10/12    object-center "
-                      src="/sharthak.jpg"
+                      src="/student/sharthak.jpg"
                     />
                     <div className="py-2 w-full">
                       <h2 className=" capitalize title-font font-medium text-lg text-gray-900">
@@ -143,7 +143,7 @@ const Teams = () => {
                       <img
                       alt="team"
                       className=" object-cover shadow-xl     shadow-stone-400 mb-4  h-60    rounded-lg w-10/12   object-center "
-                      src="/deepika.jpg"
+                      src="/student/deepika.jpg"
                     />
                     <div className="py-2 w-full">
                       <h2 className="capitalize title-font font-medium text-lg text-gray-900">
@@ -159,7 +159,7 @@ const Teams = () => {
                       <img
                       alt="team"
                       className=" object-cover shadow-xl   shadow-stone-400 mb-4  h-60    rounded-lg w-10/12    object-center "
-                      src="/eshita.jpg"
+                      src="/student/eshita.jpg"
                     />
                     <div className="py-2 w-full">
                       <h2 className=" capitalize title-font font-medium text-lg text-gray-900">
@@ -175,7 +175,7 @@ const Teams = () => {
                       <img
                       alt="team"
                       className=" object-cover shadow-xl     shadow-stone-400 mb-4  h-60     rounded-lg w-10/12    object-center "
-                      src="/saksham.jpg"
+                      src="/student/saksham.jpg"
                     />
                     <div className="py-2 w-full">
                       <h2 className="capitalize title-font font-medium text-lg text-gray-900">
@@ -191,7 +191,7 @@ const Teams = () => {
                       <img
                       alt="team"
                       className=" object-cover shadow-xl   shadow-stone-400 mb-4  h-60    rounded-lg w-10/12    object-center "
-                      src="/Riya.jpg"
+                      src="/student/Riya.jpg"
                     />
                     <div className="py-2 w-full">
                       <h2 className="capitalize title-font font-medium text-lg text-gray-900">
@@ -207,7 +207,7 @@ const Teams = () => {
                       <img
                       alt="team"
                       className=" object-cover shadow-xl   shadow-stone-400 mb-4  h-60  rounded-lg w-10/12   object-center "
-                      src="/pragna.jpg"
+                      src="/student/pragna.jpg"
                     />
                     <div className="py-2 w-full">
                       <h2 className=" capitalize title-font font-medium text-lg text-gray-900">
@@ -223,7 +223,7 @@ const Teams = () => {
                       <img
                       alt="team"
                       className=" object-cover shadow-xl     shadow-stone-400 mb-4  h-60    rounded-lg  w-10/12  object-center "
-                      src="/Kshitiz.jpg"
+                      src="/student/Kshitiz.jpg"
                     />
                     <div className="py-2 w-full">
                       <h2 className=" capitalize title-font font-medium text-lg text-gray-900">
@@ -239,7 +239,7 @@ const Teams = () => {
                       <img
                       alt="team"
                       className=" object-cover shadow-xl     shadow-stone-400 mb-4 rounded-lg h-60  w-10/12   object-center "
-                      src="/Naga Chaitanya.jpg"
+                      src="/student/Naga Chaitanya.jpg"
                     />
                     <div className="py-2 w-full">
                       <h2 className=" capitalize title-font font-medium text-lg text-gray-900">
@@ -255,7 +255,7 @@ const Teams = () => {
                       <img
                       alt="team"
                       className=" object-cover shadow-xl      shadow-stone-400 mb-4  h-60   rounded-lg   w-10/12   object-center "
-                      src="/shyam.jpg"
+                      src="/student/shyam.jpg"
                     />
                     <div className="py-2 w-full">
                       <h2 className=" capitalize title-font font-medium text-lg text-gray-900">
@@ -271,7 +271,7 @@ const Teams = () => {
                       <img
                       alt="team"
                       className=" object-cover shadow-xl   shadow-stone-400 mb-4  h-60  rounded-lg w-10/12   object-center "
-                      src="/shacin.jpg"
+                      src="/student/shacin.jpg"
                     />
                     <div className="py-2 w-full">
                       <h2 className=" capitalize title-font font-medium text-lg text-gray-900">
@@ -287,7 +287,7 @@ const Teams = () => {
                       <img
                       alt="team"
                       className=" object-cover shadow-xl      shadow-stone-400 mb-4  h-60    rounded-lg w-10/12  object-center "
-                      src="/Rohan.jpg"
+                      src="/student/Rohan.jpg"
                     />
                     <div className="py-2 w-full">
                       <h2 className=" capitalize title-font font-medium text-lg text-gray-900">
@@ -302,7 +302,7 @@ const Teams = () => {
                       <img
                       alt="team"
                       className=" object-cover shadow-xl      shadow-stone-400 mb-4  h-60   rounded-lg w-10/12   object-center "
-                      src="/sumit.jpg"
+                      src="/student/sumit.jpg"
                     />
                     <div className="py-2 w-full">
                       <h2 className=" capitalize title-font font-medium text-lg text-gray-900">
@@ -322,7 +322,7 @@ const Teams = () => {
                       <img
                       alt="team"
                       className=" object-cover shadow-xl     shadow-stone-400 mb-4  h-60   flended-lg w-10/12 object-center "
-                      src="/AbhishekDas.jpg"
+                      src="/student/AbhishekDas.jpg"
                     />
                     <div className="py-2 w-full">
                       <h2 className="title-font font-medium text-lg text-gray-900">
@@ -338,7 +338,7 @@ const Teams = () => {
                       <img
                       alt="team"
                       className=" object-cover shadow-xl     shadow-stone-400 mb-4  h-60     rounded-lg w-10/12  object-center "
-                      src="/Supreeth.jpg"
+                      src="/student/Supreeth.jpg"
                     />
                     <div className="py-2 w-full">
                       <h2 className="title-font font-medium text-lg text-gray-900">
@@ -353,7 +353,7 @@ const Teams = () => {
                       <img
                       alt="team"
                       className=" object-cover shadow-xl      shadow-stone-400 mb-4  h-60        rounded-lg w-10/12  object-center "
-                      src="/Daksh.jpg"
+                      src="/student/Daksh.jpg"
                     />
                     <div className="py-2 w-full">
                       <h2 className="title-font font-medium text-lg text-gray-900">
@@ -368,7 +368,7 @@ const Teams = () => {
                       <img
                       alt="team"
                       className=" object-cover shadow-xl     shadow-stone-400 mb-4  h-60     rounded-lg w-10/12  object-center "
-                      src="/Divyanshu.jpg"
+                      src="/student/Divyanshu.jpg"
                     />
                     <div className="py-2 w-full">
                       <h2 className="title-font font-medium text-lg text-gray-900">
@@ -383,7 +383,7 @@ const Teams = () => {
                       <img
                       alt="team"
                       className=" object-cover shadow-xl      shadow-stone-400 mb-4  h-60  rounded-lg w-10/12   object-center "
-                      src="/Kasam.jpg"
+                      src="/student/Kasam.jpg"
                     />
                     <div className="py-2 w-full">
                       <h2 className="title-font font-medium text-lg text-gray-900">
@@ -398,7 +398,7 @@ const Teams = () => {
                       <img
                       alt="team"
                       className=" object-cover shadow-xl     shadow-stone-400 mb-4  h-60    rounded-lg w-10/12   object-center "
-                      src="/Samarth.jpg"
+                      src="/student/Samarth.jpg"
                     />
                     <div className="py-2 w-full">
                       <h2 className="title-font font-medium text-lg text-gray-900">
@@ -413,7 +413,7 @@ const Teams = () => {
                       <img
                       alt="team"
                       className=" object-cover shadow-xl      shadow-stone-400 mb-4  h-60   rounded-lg w-10/12   object-center "
-                      src="/Jatin.jpg"
+                      src="/student/Jatin.jpg"
                     />
                     <div className="py-2 w-full">
                       <h2 className="title-font font-medium text-lg text-gray-900">
@@ -428,7 +428,7 @@ const Teams = () => {
                       <img
                       alt="team"
                       className=" object-cover shadow-xl      shadow-stone-400 mb-4  h-60    rounded-lg w-10/12   object-center "
-                      src="/Monil.jpg"
+                      src="/student/Monil.jpg"
                     />
                     <div className="py-2 w-full">
                       <h2 className="title-font font-medium text-lg text-gray-900">
@@ -444,7 +444,7 @@ const Teams = () => {
                       <img
                       alt="team"
                       className=" object-cover shadow-xl      shadow-stone-400 mb-4  h-60    rounded-lg w-10/12   object-center "
-                      src="/Robin.jpg"
+                      src="/student/Robin.jpg"
                     />
                     <div className="py-2 w-full">
                       <h2 className="title-font font-medium text-lg text-gray-900">
@@ -461,7 +461,7 @@ const Teams = () => {
                       <img
                       alt="team"
                       className=" object-cover shadow-xl     shadow-stone-400 mb-4  h-60    rounded-lg w-10/12   object-center "
-                      src="/shreyansh.jpeg"
+                      src="/student/shreyansh.jpeg"
                     />
                     <div className="py-2 w-full">
                       <h2 className="title-font font-medium text-lg text-gray-900">
@@ -477,7 +477,7 @@ const Teams = () => {
                       <img
                       alt="team"
                       className=" object-cover shadow-xl     shadow-stone-400 mb-4  h-60   rounded-lg w-10/12   object-center "
-                      src="/anirban.jpeg"
+                      src="/student/anirban.jpeg"
                     />
                     <div className="py-2 w-full">
                       <h2 className="title-font font-medium text-lg text-gray-900">
@@ -492,7 +492,7 @@ const Teams = () => {
                       <img
                       alt="team"
                       className=" object-cover shadow-xl     shadow-stone-400 mb-4  h-60    rounded-lg w-10/12   object-center "
-                      src="/Shashwat.jpg"
+                      src="/student/Shashwat.jpg"
                     />
                     <div className="py-2 w-full">
                       <h2 className="title-font font-medium text-lg text-gray-900">

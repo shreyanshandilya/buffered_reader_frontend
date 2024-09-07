@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import { useNavigate, Link } from 'react-router-dom'
-import cseSocityIcon from '/logo.png'
+import cseSocityIcon from '/backgrounds/logo.png'
 
 export default function Navbar(props) {
 
@@ -25,10 +25,10 @@ export default function Navbar(props) {
                 slideBtns ? slideBtns.classList.remove('hidden') : ''
             })() : ''
 
-            sideNavbar.style.width = `${window.innerWidth}px`
+        sideNavbar.style.width = `${window.innerWidth}px`
     })
 
-   
+
 
     useEffect(() => {
         const bar = document.querySelector("#navbar .bar")
@@ -45,7 +45,7 @@ export default function Navbar(props) {
             navbar.classList.add("bg-neutral-900")
         })
         cross.addEventListener('click', () => {
-            document.body.style.overflow = " "
+            document.body.style.overflow = "auto"
             bar.classList.remove("hidden")
             cross.classList.add("hidden")
             sideNavbar.style.height = 0
@@ -71,7 +71,7 @@ export default function Navbar(props) {
                 slideBtns ? slideBtns.classList.remove('hidden') : ''
             })() : ''
     }, [])
-    
+
 
 
     return (
@@ -85,9 +85,9 @@ export default function Navbar(props) {
                         </Link>
 
 
-                        <Link className=" md:block hidden hover:underline underline-offset-8 mx-3 cursor-pointer" onClick={()=>alert("COMING SOON")}>BLOGS</Link>
+                        <Link className=" md:block hidden hover:underline underline-offset-8 mx-3 cursor-pointer" onClick={() => alert("COMING SOON")}>BLOGS</Link>
                         <Link to="/teams" className=" md:block hidden hover:underline underline-offset-8 mx-3 cursor-pointer">TEAMS</Link>
-                        <Link to ="/editions" className=" md:block hidden hover:underline underline-offset-8 mx-3 cursor-pointer">EARLIER EDITIONS</Link>
+                        <Link to="/editions" className=" md:block hidden hover:underline underline-offset-8 mx-3 cursor-pointer">EARLIER EDITIONS</Link>
                         <Link to="/about" className=" md:block hidden hover:underline underline-offset-8 mx-3 cursor-pointer">ABOUT US</Link>
                         <div className={`cursor-pointer block sm:me-4 me-2 md:hidden h-4/5`} >
                             <svg className='bar h-full' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="white" d="M0 96C0 78.3 14.3 64 32 64l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 128C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 288c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32L32 448c-17.7 0-32-14.3-32-32s14.3-32 32-32l384 0c17.7 0 32 14.3 32 32z" />
@@ -97,10 +97,40 @@ export default function Navbar(props) {
                         </div>
                     </div>
                     <div id="sideNavbar" className={`${!isNavbarCollapse ? 'hidden' : ''} transition-all duration-500 z-30 overflow-hidden flex flex-col justify-evenly items-center absolute bg-neutral-900 text-white text-2xl font-[400] top-full left-0 `} style={{ width: `${window.innerWidth}px`, height: 0 }}>
-                        <Link  className="py-3 hover:underline underline-offset-8 mx-3 cursor-pointer" onClick={()=>alert("COMING SOON")}>BLOGS</Link>
-                        <Link to="/teams" className="py-3 hover:underline underline-offset-8 mx-3 cursor-pointer" onClick={()=>{document.body.style.overflow=""}}>TEAMS</Link>
-                        <Link to="/editions" className="py-3 hover:underline underline-offset-8 mx-3 cursor-pointer" onClick={()=>{document.body.style.overflow=""}}>EARLIER EDITIONS</Link>
-                        <Link to="/about" className="py-3 hover:underline underline-offset-8 mx-3 cursor-pointer" onClick={()=>{document.body.style.overflow=""}}>ABOUT US</Link>
+                        <Link className="py-3 hover:underline underline-offset-8 mx-3 cursor-pointer" onClick={() => alert("COMING SOON")}>BLOGS</Link>
+                        <Link to="/teams" className="py-3 hover:underline underline-offset-8 mx-3 cursor-pointer" onClick={() => {
+                            document.body.style.overflow = "auto";
+                            const bar = document.querySelector("#navbar .bar")
+                            const cross = document.querySelector("#navbar .cross")
+                            const navbar = document.querySelector("#navbar")
+                            const sideNavbar = document.querySelector("#sideNavbar")
+                            sideNavbar.style.height = 0;
+                            navbar.classList.remove("bg-neutral-900")
+                            bar.classList.remove("hidden")
+                            cross.classList.add("hidden")
+                        }}>TEAMS</Link>
+                        <Link to="/editions" className="py-3 hover:underline underline-offset-8 mx-3 cursor-pointer" onClick={() => {
+                            document.body.style.overflow = "auto";
+                            const bar = document.querySelector("#navbar .bar")
+                            const cross = document.querySelector("#navbar .cross")
+                            const navbar = document.querySelector("#navbar")
+                            const sideNavbar = document.querySelector("#sideNavbar")
+                            sideNavbar.style.height = 0;
+                            navbar.classList.remove("bg-neutral-900")
+                            bar.classList.remove("hidden")
+                            cross.classList.add("hidden")
+                        }}>EARLIER EDITIONS</Link>
+                        <Link to="/about" className="py-3 hover:underline underline-offset-8 mx-3 cursor-pointer" onClick={() => {
+                            document.body.style.overflow = "auto";
+                            const bar = document.querySelector("#navbar .bar")
+                            const cross = document.querySelector("#navbar .cross")
+                            const navbar = document.querySelector("#navbar")
+                            const sideNavbar = document.querySelector("#sideNavbar")
+                            sideNavbar.style.height = 0;
+                            navbar.classList.remove("bg-neutral-900")
+                            bar.classList.remove("hidden")
+                            cross.classList.add("hidden")
+                        }}>ABOUT US</Link>
                     </div>
                 </div>
 
