@@ -1,7 +1,7 @@
 import React from 'react'
 import Navbar from '../navbar'
 import Footer from '../Footer'
-import waveImg from '/wave.png'
+import waveImg from '/backgrounds/wave.png'
 import pastEditions from './pastEditions.json';
 
 const editions = () => {

@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import { useNavigate, Link } from 'react-router-dom'
-import cseSocityIcon from '/logo.png'
+import cseSocityIcon from '/backgrounds/logo.png'
 
 export default function Navbar(props) {
 

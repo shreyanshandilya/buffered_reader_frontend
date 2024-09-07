@@ -1,6 +1,5 @@
 import React, { useEffect } from 'react'
 import '../../css/landingPage.css'
-import demoImg from '/demoImg.jpeg'
 
 const achievements = (props) => {
 

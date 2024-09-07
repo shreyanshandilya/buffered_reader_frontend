@@ -5,7 +5,6 @@ import About from "./components/about"
 import Purpose from './components/landing page/purpose'
 import Teams from "./components/Teams"
 import Editions from "./components/editions/editions"
-import upcomingEvents from "./components/landing page/upcomingEvents"
 
 function App() {
 

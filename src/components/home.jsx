@@ -1,6 +1,5 @@
 import React, { useEffect, useRef, useState } from 'react'
 import UpcomingEvents from './landing page/upcomingEvents'
-// import Hero from './landing page/Hero'
 import Purpose from './landing page/purpose'
 import Footer from './Footer'
 import Hero from './landing page/hero'
